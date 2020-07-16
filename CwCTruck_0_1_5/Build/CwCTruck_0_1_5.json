@@ -1,7 +1,7 @@
 {
 "companyName": "Jim Urbas",
 "productName": "CwC Truck",
-"productVersion": "0.1.5",
+"productVersion": "0.1.5a",
 "dataUrl": "CwCTruck_0_1_5.data.unityweb",
 "wasmCodeUrl": "CwCTruck_0_1_5.wasm.code.unityweb",
 "wasmFrameworkUrl": "CwCTruck_0_1_5.wasm.framework.unityweb",
