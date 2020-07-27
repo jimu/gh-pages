@@ -1,0 +1,16 @@
+{
+"companyName": "JimU",
+"productName": "Opening Browser Links",
+"productVersion": "0.1",
+"dataUrl": "ResponsiveButtonLink.data.unityweb",
+"wasmCodeUrl": "ResponsiveButtonLink.wasm.code.unityweb",
+"wasmFrameworkUrl": "ResponsiveButtonLink.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.4f1"
+}
