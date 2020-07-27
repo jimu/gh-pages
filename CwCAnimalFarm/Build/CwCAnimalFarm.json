@@ -1,7 +1,7 @@
 {
 "companyName": "Jim Urbas",
 "productName": "CwCAnimalFarm",
-"productVersion": "0.0.3a",
+"productVersion": "0.0.3e",
 "dataUrl": "CwCAnimalFarm.data.unityweb",
 "wasmCodeUrl": "CwCAnimalFarm.wasm.code.unityweb",
 "wasmFrameworkUrl": "CwCAnimalFarm.wasm.framework.unityweb",
