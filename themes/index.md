@@ -17,3 +17,17 @@
 - [ ] Add pages to lesson1 and see what happens
 - [ ] Add pages to lesson2 and see what happens
 - [ ] Find out if the crap at the bottom of the pages can be removed
+- [ ] Figure out why this page isn't published to https://jimu.net/themes after I commited it. Is this a delay, or a problem?
+- [ ] What's the best way to share wiki pages?
+- [ ] Can wiki pages be theme'd?
+
+## Notes
+- It's annoying that I have to commit every small change. The Wiki pages are faster to author. 
+- My index.md page is available, but it's served as text.  How is it I published an index.md file in the tutorial?  Does the theme do this work?  Also, how is it I published a blog page as yyyy-mm-dd-title yet the url became yyyy/mm/dd/...  Is this a ruby thing?  I'm publishing content, but something else is serving the pages.  Can I even organize my site by folders?   I wanted to publish to jimu.net/themes but I get a 404 because there's no index.html.  The index.md isn't processed.  
+- Is my existing site not themed at all?
+- If I theme my site, will the html pages break?
+- Am I choosing between a Ruby-on-rails vs static site by choosing a theme?
+- Is the markdown compiled under certain circumstances?
+
+- I find it strange that I can preview this page, yet it is never served properly.
+- Also, it is interesting that I can preview the pages I'm editing in one format, yet they look different on the jekyl themed site.  The emoji preview fine, but they don't appear on the jekyl site. 
