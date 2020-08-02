@@ -1,1 +1,7 @@
+  
+title: Create with Code Projects
 theme: jekyll-theme-cayman
+repository_url: http://example.com
+github:
+  is_project_page: false
+  repository_url: http://example2.com
