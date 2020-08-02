@@ -1502,7 +1502,7 @@ function _emscripten_asm_const_ii(code, a0) {
  return ASM_CONSTS[code](a0);
 }
 STATIC_BASE = GLOBAL_BASE;
-STATICTOP = STATIC_BASE + 2626064;
+STATICTOP = STATIC_BASE + 2874448;
 __ATINIT__.push({
  func: (function() {
   __GLOBAL__sub_I_AccessibilityScriptingClasses_cpp();
@@ -2185,31 +2185,31 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_182_8715();
+  ___cxx_global_var_init_182_8718();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_183_8716();
+  ___cxx_global_var_init_183_8719();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_184_8717();
+  ___cxx_global_var_init_184_8720();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_185_8718();
+  ___cxx_global_var_init_185_8721();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_186_8719();
+  ___cxx_global_var_init_186_8722();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_187_8720();
+  ___cxx_global_var_init_187_8723();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_188_8721();
+  ___cxx_global_var_init_188_8724();
  })
 }, {
  func: (function() {
@@ -2333,7 +2333,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_30_9101();
+  ___cxx_global_var_init_30_9104();
  })
 }, {
  func: (function() {
@@ -2341,7 +2341,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_32_9102();
+  ___cxx_global_var_init_32_9105();
  })
 }, {
  func: (function() {
@@ -2349,7 +2349,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_34_9103();
+  ___cxx_global_var_init_34_9106();
  })
 }, {
  func: (function() {
@@ -2373,7 +2373,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_22_9315();
+  ___cxx_global_var_init_22_9318();
  })
 }, {
  func: (function() {
@@ -2381,7 +2381,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_24_9316();
+  ___cxx_global_var_init_24_9319();
  })
 }, {
  func: (function() {
@@ -2389,7 +2389,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_26_9317();
+  ___cxx_global_var_init_26_9320();
  })
 }, {
  func: (function() {
@@ -2409,7 +2409,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_33_9914();
+  ___cxx_global_var_init_33_9917();
  })
 }, {
  func: (function() {
@@ -2457,7 +2457,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_2_10941();
+  ___cxx_global_var_init_2_10946();
  })
 }, {
  func: (function() {
@@ -2573,15 +2573,15 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_36_12710();
+  ___cxx_global_var_init_36_12715();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_37_12711();
+  ___cxx_global_var_init_37_12716();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_38_12712();
+  ___cxx_global_var_init_38_12717();
  })
 }, {
  func: (function() {
@@ -2645,7 +2645,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_40_13403();
+  ___cxx_global_var_init_40_13408();
  })
 }, {
  func: (function() {
@@ -2769,7 +2769,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_3811();
+  ___cxx_global_var_init_3814();
  })
 }, {
  func: (function() {
@@ -2785,11 +2785,11 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_30_3902();
+  ___cxx_global_var_init_30_3905();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_31_3903();
+  ___cxx_global_var_init_31_3906();
  })
 }, {
  func: (function() {
@@ -2801,7 +2801,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_3_4127();
+  ___cxx_global_var_init_3_4130();
  })
 }, {
  func: (function() {
@@ -2813,15 +2813,15 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_6_4214();
+  ___cxx_global_var_init_6_4218();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_7_4215();
+  ___cxx_global_var_init_7_4219();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_8_4216();
+  ___cxx_global_var_init_8_4220();
  })
 }, {
  func: (function() {
@@ -2841,15 +2841,15 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_44_4467();
+  ___cxx_global_var_init_44_4472();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_45_4468();
+  ___cxx_global_var_init_45_4473();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_46_4469();
+  ___cxx_global_var_init_46_4474();
  })
 }, {
  func: (function() {
@@ -2885,7 +2885,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_28_4470();
+  ___cxx_global_var_init_28_4475();
  })
 }, {
  func: (function() {
@@ -2897,7 +2897,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_26_5279();
+  ___cxx_global_var_init_26_5284();
  })
 }, {
  func: (function() {
@@ -2953,7 +2953,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_77_5865();
+  ___cxx_global_var_init_77_5871();
  })
 }, {
  func: (function() {
@@ -2969,7 +2969,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_81_5866();
+  ___cxx_global_var_init_81_5872();
  })
 }, {
  func: (function() {
@@ -2997,7 +2997,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_7_6628();
+  ___cxx_global_var_init_7_6635();
  })
 }, {
  func: (function() {
@@ -3013,11 +3013,11 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_4_6690();
+  ___cxx_global_var_init_4_6698();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_1_6744();
+  ___cxx_global_var_init_1_6753();
  })
 }, {
  func: (function() {
@@ -3025,11 +3025,11 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_28_6783();
+  ___cxx_global_var_init_28_6793();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_29_6784();
+  ___cxx_global_var_init_29_6794();
  })
 }, {
  func: (function() {
@@ -3053,7 +3053,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_123_6859();
+  ___cxx_global_var_init_123_6868();
  })
 }, {
  func: (function() {
@@ -3085,11 +3085,11 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_7266();
+  ___cxx_global_var_init_7275();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_35_7267();
+  ___cxx_global_var_init_35_7276();
  })
 }, {
  func: (function() {
@@ -3105,7 +3105,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_44_7452();
+  ___cxx_global_var_init_44_7461();
  })
 }, {
  func: (function() {
@@ -3121,7 +3121,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_10_7591();
+  ___cxx_global_var_init_10_7600();
  })
 }, {
  func: (function() {
@@ -3133,31 +3133,31 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_39_7754();
+  ___cxx_global_var_init_39_7764();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_40_7755();
+  ___cxx_global_var_init_40_7765();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_41_7756();
+  ___cxx_global_var_init_41_7766();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_42_7757();
+  ___cxx_global_var_init_42_7767();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_43_7758();
+  ___cxx_global_var_init_43_7768();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_44_7759();
+  ___cxx_global_var_init_44_7769();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_45_7760();
+  ___cxx_global_var_init_45_7770();
  })
 }, {
  func: (function() {
@@ -3189,7 +3189,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_7988();
+  ___cxx_global_var_init_8000();
  })
 }, {
  func: (function() {
@@ -3221,7 +3221,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_75_8769();
+  ___cxx_global_var_init_75_8780();
  })
 }, {
  func: (function() {
@@ -3249,11 +3249,11 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_8941();
+  ___cxx_global_var_init_8952();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_1_8942();
+  ___cxx_global_var_init_1_8953();
  })
 }, {
  func: (function() {
@@ -3265,23 +3265,23 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_40_9126();
+  ___cxx_global_var_init_40_9135();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_41_9127();
+  ___cxx_global_var_init_41_9136();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_42_9128();
+  ___cxx_global_var_init_42_9137();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_43_9129();
+  ___cxx_global_var_init_43_9138();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_44_9130();
+  ___cxx_global_var_init_44_9139();
  })
 }, {
  func: (function() {
@@ -3289,7 +3289,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_16_9131();
+  ___cxx_global_var_init_16_9140();
  })
 }, {
  func: (function() {
@@ -3297,31 +3297,31 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_18_9132();
+  ___cxx_global_var_init_18_9141();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_19_9133();
+  ___cxx_global_var_init_19_9142();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_20_9134();
+  ___cxx_global_var_init_20_9143();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_21_9135();
+  ___cxx_global_var_init_21_9144();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_22_9136();
+  ___cxx_global_var_init_22_9145();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_23_9137();
+  ___cxx_global_var_init_23_9146();
  })
 }, {
  func: (function() {
-  ___cxx_global_var_init_24_9138();
+  ___cxx_global_var_init_24_9147();
  })
 }, {
  func: (function() {
@@ -3376,7 +3376,7 @@ __ATINIT__.push({
   ___emscripten_environ_constructor();
  })
 });
-var STATIC_BUMP = 2626064;
+var STATIC_BUMP = 2874448;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 var tempDoublePtr = STATICTOP;
@@ -3392,6 +3392,10 @@ function _JS_Cursor_SetShow(show) {
 }
 function _JS_Eval_ClearInterval(id) {
  window.clearInterval(id);
+}
+function _JS_Eval_OpenURL(ptr) {
+ var str = Pointer_stringify(ptr);
+ location.href = str;
 }
 function _JS_Eval_SetInterval(func, arg, millis) {
  Module["noExitRuntime"] = true;
@@ -3647,6 +3651,16 @@ function _JS_Sound_Stop(channelInstance, delay) {
   }
  }
 }
+function _JS_SystemInfo_GetBrowserName(buffer, bufferSize) {
+ var browser = UnityLoader.SystemInfo.browser;
+ if (buffer) stringToUTF8(browser, buffer, bufferSize);
+ return lengthBytesUTF8(browser);
+}
+function _JS_SystemInfo_GetBrowserVersionString(buffer, bufferSize) {
+ var browserVer = UnityLoader.SystemInfo.browserVersion;
+ if (buffer) stringToUTF8(browserVer, buffer, bufferSize);
+ return lengthBytesUTF8(browserVer);
+}
 function _JS_SystemInfo_GetCanvasClientSize(domElementSelector, outWidth, outHeight) {
  var selector = UTF8ToString(domElementSelector);
  var canvas = selector == "#canvas" ? Module["canvas"] : document.querySelector(selector);
@@ -3661,6 +3675,11 @@ function _JS_SystemInfo_GetGPUInfo(buffer, bufferSize) {
  var gpuinfo = UnityLoader.SystemInfo.gpu;
  if (buffer) stringToUTF8(gpuinfo, buffer, bufferSize);
  return lengthBytesUTF8(gpuinfo);
+}
+function _JS_SystemInfo_GetLanguage(buffer, bufferSize) {
+ var language = UnityLoader.SystemInfo.language;
+ if (buffer) stringToUTF8(language, buffer, bufferSize);
+ return lengthBytesUTF8(language);
 }
 function _JS_SystemInfo_GetMemory() {
  return TOTAL_MEMORY / (1024 * 1024);
@@ -3685,6 +3704,100 @@ function _JS_SystemInfo_HasFullscreen() {
 }
 function _JS_SystemInfo_HasWebGL() {
  return UnityLoader.SystemInfo.hasWebGL;
+}
+var wr = {
+ requestInstances: {},
+ nextRequestId: 1
+};
+function _JS_WebRequest_Abort(request) {
+ wr.requestInstances[request].abort();
+}
+function _JS_WebRequest_Create(url, method) {
+ var http = new XMLHttpRequest;
+ var _url = Pointer_stringify(url);
+ var _method = Pointer_stringify(method);
+ http.open(_method, _url, true);
+ http.responseType = "arraybuffer";
+ wr.requestInstances[wr.nextRequestId] = http;
+ return wr.nextRequestId++;
+}
+function _JS_WebRequest_GetResponseHeaders(request, buffer, bufferSize) {
+ var headers = wr.requestInstances[request].getAllResponseHeaders();
+ if (buffer) stringToUTF8(headers, buffer, bufferSize);
+ return lengthBytesUTF8(headers);
+}
+function _JS_WebRequest_Release(request) {
+ var http = wr.requestInstances[request];
+ http.onload = null;
+ http.onerror = null;
+ http.ontimeout = null;
+ http.onabort = null;
+ delete http;
+ wr.requestInstances[request] = null;
+}
+function _JS_WebRequest_Send(request, ptr, length) {
+ var http = wr.requestInstances[request];
+ try {
+  if (length > 0) {
+   var postData = HEAPU8.subarray(ptr, ptr + length);
+   http.send(postData);
+  } else http.send();
+ } catch (e) {
+  console.error(e.name + ": " + e.message);
+ }
+}
+function _JS_WebRequest_SetProgressHandler(request, arg, onprogress) {
+ var http = wr.requestInstances[request];
+ http.onprogress = function http_onprogress(e) {
+  if (onprogress) {
+   if (e.lengthComputable) dynCall("viii", onprogress, [ arg, e.loaded, e.total ]);
+  }
+ };
+}
+function _JS_WebRequest_SetRequestHeader(request, header, value) {
+ var _header = Pointer_stringify(header);
+ var _value = Pointer_stringify(value);
+ wr.requestInstances[request].setRequestHeader(_header, _value);
+}
+function _JS_WebRequest_SetResponseHandler(request, arg, onresponse) {
+ var http = wr.requestInstances[request];
+ http.onload = function http_onload(e) {
+  if (onresponse) {
+   var kWebRequestOK = 0;
+   var byteArray = new Uint8Array(http.response);
+   if (byteArray.length != 0) {
+    var buffer = _malloc(byteArray.length);
+    HEAPU8.set(byteArray, buffer);
+    dynCall("viiiiii", onresponse, [ arg, http.status, buffer, byteArray.length, 0, kWebRequestOK ]);
+   } else {
+    dynCall("viiiiii", onresponse, [ arg, http.status, 0, 0, 0, kWebRequestOK ]);
+   }
+  }
+ };
+ function HandleError(err, code) {
+  if (onresponse) {
+   var len = lengthBytesUTF8(err) + 1;
+   var buffer = _malloc(len);
+   stringToUTF8(err, buffer, len);
+   dynCall("viiiiii", onresponse, [ arg, http.status, 0, 0, buffer, code ]);
+   _free(buffer);
+  }
+ }
+ http.onerror = function http_onerror(e) {
+  var kWebErrorUnknown = 2;
+  HandleError("Unknown error.", kWebErrorUnknown);
+ };
+ http.ontimeout = function http_onerror(e) {
+  var kWebErrorTimeout = 14;
+  HandleError("Connection timed out.", kWebErrorTimeout);
+ };
+ http.onabort = function http_onerror(e) {
+  var kWebErrorAborted = 17;
+  HandleError("Aborted.", kWebErrorAborted);
+ };
+}
+function _JS_WebRequest_SetTimeout(request, timeout) {
+ wr.requestInstances[request].timeout = timeout;
 }
 function ___atomic_fetch_add_8(ptr, vall, valh, memmodel) {
  var l = HEAP32[ptr >> 2];
@@ -13492,6 +13605,13 @@ function _mktime(tmPtr) {
  HEAP32[tmPtr + 28 >> 2] = yday;
  return date.getTime() / 1e3 | 0;
 }
+function _openWindow(link) {
+ var url = Pointer_stringify(link);
+ document.onmouseup = (function() {
+  window.open(url);
+  document.onmouseup = null;
+ });
+}
 function _pthread_cond_destroy() {
  return 0;
 }
@@ -14286,6 +14406,16 @@ function nullFunc_fiiii(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
+function nullFunc_fiiiii(x) {
+ err("Invalid function pointer called with signature 'fiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
+function nullFunc_fiiiiii(x) {
+ err("Invalid function pointer called with signature 'fiiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
 function nullFunc_fiiiiiifiifif(x) {
  err("Invalid function pointer called with signature 'fiiiiiifiifif'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
@@ -14381,6 +14511,16 @@ function nullFunc_iifii(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
+function nullFunc_iifiifi(x) {
+ err("Invalid function pointer called with signature 'iifiifi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
+function nullFunc_iifiifiii(x) {
+ err("Invalid function pointer called with signature 'iifiifiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
 function nullFunc_iifiii(x) {
  err("Invalid function pointer called with signature 'iifiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
@@ -14401,8 +14541,23 @@ function nullFunc_iiifi(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
+function nullFunc_iiififiii(x) {
+ err("Invalid function pointer called with signature 'iiififiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
+function nullFunc_iiififiiii(x) {
+ err("Invalid function pointer called with signature 'iiififiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
 function nullFunc_iiifii(x) {
  err("Invalid function pointer called with signature 'iiifii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
+function nullFunc_iiifiifiii(x) {
+ err("Invalid function pointer called with signature 'iiifiifiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
@@ -14596,8 +14751,18 @@ function nullFunc_iiijiii(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
+function nullFunc_iiijji(x) {
+ err("Invalid function pointer called with signature 'iiijji'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
 function nullFunc_iiijjii(x) {
  err("Invalid function pointer called with signature 'iiijjii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
+function nullFunc_iiijjiiii(x) {
+ err("Invalid function pointer called with signature 'iiijjiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
@@ -14638,6 +14803,11 @@ function nullFunc_iijjiii(x) {
 }
 function nullFunc_iijjji(x) {
  err("Invalid function pointer called with signature 'iijjji'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
+function nullFunc_ij(x) {
+ err("Invalid function pointer called with signature 'ij'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
@@ -14816,6 +14986,11 @@ function nullFunc_vidi(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
+function nullFunc_vidiii(x) {
+ err("Invalid function pointer called with signature 'vidiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
 function nullFunc_vif(x) {
  err("Invalid function pointer called with signature 'vif'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
@@ -14833,6 +15008,11 @@ function nullFunc_vifff(x) {
 }
 function nullFunc_viffff(x) {
  err("Invalid function pointer called with signature 'viffff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
+function nullFunc_vifffffi(x) {
+ err("Invalid function pointer called with signature 'vifffffi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
@@ -15051,6 +15231,11 @@ function nullFunc_viiiif(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
+function nullFunc_viiiiffffii(x) {
+ err("Invalid function pointer called with signature 'viiiiffffii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
 function nullFunc_viiiifffi(x) {
  err("Invalid function pointer called with signature 'viiiifffi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
@@ -15063,6 +15248,11 @@ function nullFunc_viiiifi(x) {
 }
 function nullFunc_viiiifii(x) {
  err("Invalid function pointer called with signature 'viiiifii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
+function nullFunc_viiiifiii(x) {
+ err("Invalid function pointer called with signature 'viiiifiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
@@ -15231,6 +15421,11 @@ function nullFunc_viijji(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
+function nullFunc_viijjii(x) {
+ err("Invalid function pointer called with signature 'viijjii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
 function nullFunc_viijjiii(x) {
  err("Invalid function pointer called with signature 'viijjiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
@@ -15281,6 +15476,11 @@ function nullFunc_vijjii(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
+function nullFunc_vijjji(x) {
+ err("Invalid function pointer called with signature 'vijjji'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+ err("Build with ASSERTIONS=2 for more info.");
+ abort(x);
+}
 function nullFunc_vjiiii(x) {
  err("Invalid function pointer called with signature 'vjiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
  err("Build with ASSERTIONS=2 for more info.");
@@ -15291,8 +15491,8 @@ function nullFunc_vjji(x) {
  err("Build with ASSERTIONS=2 for more info.");
  abort(x);
 }
-Module["wasmTableSize"] = 48318;
-Module["wasmMaxTableSize"] = 48318;
+Module["wasmTableSize"] = 56348;
+Module["wasmMaxTableSize"] = 56348;
 function invoke_dd(index, a1) {
  var sp = stackSave();
  try {
@@ -15613,6 +15813,26 @@ function invoke_fiiii(index, a1, a2, a3, a4) {
   Module["setThrew"](1, 0);
  }
 }
+function invoke_fiiiii(index, a1, a2, a3, a4, a5) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_fiiiii"](index, a1, a2, a3, a4, a5);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
+function invoke_fiiiiii(index, a1, a2, a3, a4, a5, a6) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_fiiiiii"](index, a1, a2, a3, a4, a5, a6);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
 function invoke_fiiiiiifiifif(index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12) {
  var sp = stackSave();
  try {
@@ -15803,6 +16023,26 @@ function invoke_iifii(index, a1, a2, a3, a4) {
   Module["setThrew"](1, 0);
  }
 }
+function invoke_iifiifi(index, a1, a2, a3, a4, a5, a6) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_iifiifi"](index, a1, a2, a3, a4, a5, a6);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
+function invoke_iifiifiii(index, a1, a2, a3, a4, a5, a6, a7, a8) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_iifiifiii"](index, a1, a2, a3, a4, a5, a6, a7, a8);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
 function invoke_iifiii(index, a1, a2, a3, a4, a5) {
  var sp = stackSave();
  try {
@@ -15843,10 +16083,40 @@ function invoke_iiifi(index, a1, a2, a3, a4) {
   Module["setThrew"](1, 0);
  }
 }
+function invoke_iiififiii(index, a1, a2, a3, a4, a5, a6, a7, a8) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_iiififiii"](index, a1, a2, a3, a4, a5, a6, a7, a8);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
+function invoke_iiififiiii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_iiififiiii"](index, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
 function invoke_iiifii(index, a1, a2, a3, a4, a5) {
  var sp = stackSave();
  try {
   return Module["dynCall_iiifii"](index, a1, a2, a3, a4, a5);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
+function invoke_iiifiifiii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_iiifiifiii"](index, a1, a2, a3, a4, a5, a6, a7, a8, a9);
  } catch (e) {
   stackRestore(sp);
   if (typeof e !== "number" && e !== "longjmp") throw e;
@@ -16233,10 +16503,30 @@ function invoke_iiijiii(index, a1, a2, a3, a4, a5, a6, a7) {
   Module["setThrew"](1, 0);
  }
 }
+function invoke_iiijji(index, a1, a2, a3, a4, a5, a6, a7) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_iiijji"](index, a1, a2, a3, a4, a5, a6, a7);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
 function invoke_iiijjii(index, a1, a2, a3, a4, a5, a6, a7, a8) {
  var sp = stackSave();
  try {
   return Module["dynCall_iiijjii"](index, a1, a2, a3, a4, a5, a6, a7, a8);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
+function invoke_iiijjiiii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_iiijjiiii"](index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
  } catch (e) {
   stackRestore(sp);
   if (typeof e !== "number" && e !== "longjmp") throw e;
@@ -16317,6 +16607,16 @@ function invoke_iijjji(index, a1, a2, a3, a4, a5, a6, a7, a8) {
  var sp = stackSave();
  try {
   return Module["dynCall_iijjji"](index, a1, a2, a3, a4, a5, a6, a7, a8);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
+function invoke_ij(index, a1, a2) {
+ var sp = stackSave();
+ try {
+  return Module["dynCall_ij"](index, a1, a2);
  } catch (e) {
   stackRestore(sp);
   if (typeof e !== "number" && e !== "longjmp") throw e;
@@ -16673,6 +16973,16 @@ function invoke_vidi(index, a1, a2, a3) {
   Module["setThrew"](1, 0);
  }
 }
+function invoke_vidiii(index, a1, a2, a3, a4, a5) {
+ var sp = stackSave();
+ try {
+  Module["dynCall_vidiii"](index, a1, a2, a3, a4, a5);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
 function invoke_vif(index, a1, a2) {
  var sp = stackSave();
  try {
@@ -16707,6 +17017,16 @@ function invoke_viffff(index, a1, a2, a3, a4, a5) {
  var sp = stackSave();
  try {
   Module["dynCall_viffff"](index, a1, a2, a3, a4, a5);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
+function invoke_vifffffi(index, a1, a2, a3, a4, a5, a6, a7) {
+ var sp = stackSave();
+ try {
+  Module["dynCall_vifffffi"](index, a1, a2, a3, a4, a5, a6, a7);
  } catch (e) {
   stackRestore(sp);
   if (typeof e !== "number" && e !== "longjmp") throw e;
@@ -17143,6 +17463,16 @@ function invoke_viiiif(index, a1, a2, a3, a4, a5) {
   Module["setThrew"](1, 0);
  }
 }
+function invoke_viiiiffffii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) {
+ var sp = stackSave();
+ try {
+  Module["dynCall_viiiiffffii"](index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
 function invoke_viiiifffi(index, a1, a2, a3, a4, a5, a6, a7, a8) {
  var sp = stackSave();
  try {
@@ -17167,6 +17497,16 @@ function invoke_viiiifii(index, a1, a2, a3, a4, a5, a6, a7) {
  var sp = stackSave();
  try {
   Module["dynCall_viiiifii"](index, a1, a2, a3, a4, a5, a6, a7);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
+function invoke_viiiifiii(index, a1, a2, a3, a4, a5, a6, a7, a8) {
+ var sp = stackSave();
+ try {
+  Module["dynCall_viiiifiii"](index, a1, a2, a3, a4, a5, a6, a7, a8);
  } catch (e) {
   stackRestore(sp);
   if (typeof e !== "number" && e !== "longjmp") throw e;
@@ -17503,6 +17843,16 @@ function invoke_viijji(index, a1, a2, a3, a4, a5, a6, a7) {
   Module["setThrew"](1, 0);
  }
 }
+function invoke_viijjii(index, a1, a2, a3, a4, a5, a6, a7, a8) {
+ var sp = stackSave();
+ try {
+  Module["dynCall_viijjii"](index, a1, a2, a3, a4, a5, a6, a7, a8);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
 function invoke_viijjiii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9) {
  var sp = stackSave();
  try {
@@ -17603,6 +17953,16 @@ function invoke_vijjii(index, a1, a2, a3, a4, a5, a6, a7) {
   Module["setThrew"](1, 0);
  }
 }
+function invoke_vijjji(index, a1, a2, a3, a4, a5, a6, a7, a8) {
+ var sp = stackSave();
+ try {
+  Module["dynCall_vijjji"](index, a1, a2, a3, a4, a5, a6, a7, a8);
+ } catch (e) {
+  stackRestore(sp);
+  if (typeof e !== "number" && e !== "longjmp") throw e;
+  Module["setThrew"](1, 0);
+ }
+}
 function invoke_vjiiii(index, a1, a2, a3, a4, a5, a6) {
  var sp = stackSave();
  try {
@@ -17663,6 +18023,8 @@ Module.asmLibraryArg = {
  "nullFunc_fiifii": nullFunc_fiifii,
  "nullFunc_fiii": nullFunc_fiii,
  "nullFunc_fiiii": nullFunc_fiiii,
+ "nullFunc_fiiiii": nullFunc_fiiiii,
+ "nullFunc_fiiiiii": nullFunc_fiiiiii,
  "nullFunc_fiiiiiifiifif": nullFunc_fiiiiiifiifif,
  "nullFunc_fiiiiiifiiiif": nullFunc_fiiiiiifiiiif,
  "nullFunc_fji": nullFunc_fji,
@@ -17682,11 +18044,16 @@ Module.asmLibraryArg = {
  "nullFunc_iiffi": nullFunc_iiffi,
  "nullFunc_iifi": nullFunc_iifi,
  "nullFunc_iifii": nullFunc_iifii,
+ "nullFunc_iifiifi": nullFunc_iifiifi,
+ "nullFunc_iifiifiii": nullFunc_iifiifiii,
  "nullFunc_iifiii": nullFunc_iifiii,
  "nullFunc_iii": nullFunc_iii,
  "nullFunc_iiif": nullFunc_iiif,
  "nullFunc_iiifi": nullFunc_iiifi,
+ "nullFunc_iiififiii": nullFunc_iiififiii,
+ "nullFunc_iiififiiii": nullFunc_iiififiiii,
  "nullFunc_iiifii": nullFunc_iiifii,
+ "nullFunc_iiifiifiii": nullFunc_iiifiifiii,
  "nullFunc_iiifiii": nullFunc_iiifiii,
  "nullFunc_iiifiiii": nullFunc_iiifiiii,
  "nullFunc_iiii": nullFunc_iiii,
@@ -17725,7 +18092,9 @@ Module.asmLibraryArg = {
  "nullFunc_iiiji": nullFunc_iiiji,
  "nullFunc_iiijii": nullFunc_iiijii,
  "nullFunc_iiijiii": nullFunc_iiijiii,
+ "nullFunc_iiijji": nullFunc_iiijji,
  "nullFunc_iiijjii": nullFunc_iiijjii,
+ "nullFunc_iiijjiiii": nullFunc_iiijjiiii,
  "nullFunc_iij": nullFunc_iij,
  "nullFunc_iiji": nullFunc_iiji,
  "nullFunc_iijii": nullFunc_iijii,
@@ -17734,6 +18103,7 @@ Module.asmLibraryArg = {
  "nullFunc_iijjii": nullFunc_iijjii,
  "nullFunc_iijjiii": nullFunc_iijjiii,
  "nullFunc_iijjji": nullFunc_iijjji,
+ "nullFunc_ij": nullFunc_ij,
  "nullFunc_iji": nullFunc_iji,
  "nullFunc_ijiii": nullFunc_ijiii,
  "nullFunc_ijj": nullFunc_ijj,
@@ -17769,10 +18139,12 @@ Module.asmLibraryArg = {
  "nullFunc_vi": nullFunc_vi,
  "nullFunc_vid": nullFunc_vid,
  "nullFunc_vidi": nullFunc_vidi,
+ "nullFunc_vidiii": nullFunc_vidiii,
  "nullFunc_vif": nullFunc_vif,
  "nullFunc_viff": nullFunc_viff,
  "nullFunc_vifff": nullFunc_vifff,
  "nullFunc_viffff": nullFunc_viffff,
+ "nullFunc_vifffffi": nullFunc_vifffffi,
  "nullFunc_viffffi": nullFunc_viffffi,
  "nullFunc_viffffii": nullFunc_viffffii,
  "nullFunc_viffffiifffiiiiif": nullFunc_viffffiifffiiiiif,
@@ -17816,9 +18188,11 @@ Module.asmLibraryArg = {
  "nullFunc_viiifiiiii": nullFunc_viiifiiiii,
  "nullFunc_viiii": nullFunc_viiii,
  "nullFunc_viiiif": nullFunc_viiiif,
+ "nullFunc_viiiiffffii": nullFunc_viiiiffffii,
  "nullFunc_viiiifffi": nullFunc_viiiifffi,
  "nullFunc_viiiifi": nullFunc_viiiifi,
  "nullFunc_viiiifii": nullFunc_viiiifii,
+ "nullFunc_viiiifiii": nullFunc_viiiifiii,
  "nullFunc_viiiifiiiiif": nullFunc_viiiifiiiiif,
  "nullFunc_viiiii": nullFunc_viiiii,
  "nullFunc_viiiiif": nullFunc_viiiiif,
@@ -17852,6 +18226,7 @@ Module.asmLibraryArg = {
  "nullFunc_viijijj": nullFunc_viijijj,
  "nullFunc_viijj": nullFunc_viijj,
  "nullFunc_viijji": nullFunc_viijji,
+ "nullFunc_viijjii": nullFunc_viijjii,
  "nullFunc_viijjiii": nullFunc_viijjiii,
  "nullFunc_viijjji": nullFunc_viijjji,
  "nullFunc_vij": nullFunc_vij,
@@ -17862,6 +18237,7 @@ Module.asmLibraryArg = {
  "nullFunc_vijijji": nullFunc_vijijji,
  "nullFunc_vijji": nullFunc_vijji,
  "nullFunc_vijjii": nullFunc_vijjii,
+ "nullFunc_vijjji": nullFunc_vijjji,
  "nullFunc_vjiiii": nullFunc_vjiiii,
  "nullFunc_vjji": nullFunc_vjji,
  "invoke_dd": invoke_dd,
@@ -17896,6 +18272,8 @@ Module.asmLibraryArg = {
  "invoke_fiifii": invoke_fiifii,
  "invoke_fiii": invoke_fiii,
  "invoke_fiiii": invoke_fiiii,
+ "invoke_fiiiii": invoke_fiiiii,
+ "invoke_fiiiiii": invoke_fiiiiii,
  "invoke_fiiiiiifiifif": invoke_fiiiiiifiifif,
  "invoke_fiiiiiifiiiif": invoke_fiiiiiifiiiif,
  "invoke_fji": invoke_fji,
@@ -17915,11 +18293,16 @@ Module.asmLibraryArg = {
  "invoke_iiffi": invoke_iiffi,
  "invoke_iifi": invoke_iifi,
  "invoke_iifii": invoke_iifii,
+ "invoke_iifiifi": invoke_iifiifi,
+ "invoke_iifiifiii": invoke_iifiifiii,
  "invoke_iifiii": invoke_iifiii,
  "invoke_iii": invoke_iii,
  "invoke_iiif": invoke_iiif,
  "invoke_iiifi": invoke_iiifi,
+ "invoke_iiififiii": invoke_iiififiii,
+ "invoke_iiififiiii": invoke_iiififiiii,
  "invoke_iiifii": invoke_iiifii,
+ "invoke_iiifiifiii": invoke_iiifiifiii,
  "invoke_iiifiii": invoke_iiifiii,
  "invoke_iiifiiii": invoke_iiifiiii,
  "invoke_iiii": invoke_iiii,
@@ -17958,7 +18341,9 @@ Module.asmLibraryArg = {
  "invoke_iiiji": invoke_iiiji,
  "invoke_iiijii": invoke_iiijii,
  "invoke_iiijiii": invoke_iiijiii,
+ "invoke_iiijji": invoke_iiijji,
  "invoke_iiijjii": invoke_iiijjii,
+ "invoke_iiijjiiii": invoke_iiijjiiii,
  "invoke_iij": invoke_iij,
  "invoke_iiji": invoke_iiji,
  "invoke_iijii": invoke_iijii,
@@ -17967,6 +18352,7 @@ Module.asmLibraryArg = {
  "invoke_iijjii": invoke_iijjii,
  "invoke_iijjiii": invoke_iijjiii,
  "invoke_iijjji": invoke_iijjji,
+ "invoke_ij": invoke_ij,
  "invoke_iji": invoke_iji,
  "invoke_ijiii": invoke_ijiii,
  "invoke_ijj": invoke_ijj,
@@ -18002,10 +18388,12 @@ Module.asmLibraryArg = {
  "invoke_vi": invoke_vi,
  "invoke_vid": invoke_vid,
  "invoke_vidi": invoke_vidi,
+ "invoke_vidiii": invoke_vidiii,
  "invoke_vif": invoke_vif,
  "invoke_viff": invoke_viff,
  "invoke_vifff": invoke_vifff,
  "invoke_viffff": invoke_viffff,
+ "invoke_vifffffi": invoke_vifffffi,
  "invoke_viffffi": invoke_viffffi,
  "invoke_viffffii": invoke_viffffii,
  "invoke_viffffiifffiiiiif": invoke_viffffiifffiiiiif,
@@ -18049,9 +18437,11 @@ Module.asmLibraryArg = {
  "invoke_viiifiiiii": invoke_viiifiiiii,
  "invoke_viiii": invoke_viiii,
  "invoke_viiiif": invoke_viiiif,
+ "invoke_viiiiffffii": invoke_viiiiffffii,
  "invoke_viiiifffi": invoke_viiiifffi,
  "invoke_viiiifi": invoke_viiiifi,
  "invoke_viiiifii": invoke_viiiifii,
+ "invoke_viiiifiii": invoke_viiiifiii,
  "invoke_viiiifiiiiif": invoke_viiiifiiiiif,
  "invoke_viiiii": invoke_viiiii,
  "invoke_viiiiif": invoke_viiiiif,
@@ -18085,6 +18475,7 @@ Module.asmLibraryArg = {
  "invoke_viijijj": invoke_viijijj,
  "invoke_viijj": invoke_viijj,
  "invoke_viijji": invoke_viijji,
+ "invoke_viijjii": invoke_viijjii,
  "invoke_viijjiii": invoke_viijjiii,
  "invoke_viijjji": invoke_viijjji,
  "invoke_vij": invoke_vij,
@@ -18095,11 +18486,13 @@ Module.asmLibraryArg = {
  "invoke_vijijji": invoke_vijijji,
  "invoke_vijji": invoke_vijji,
  "invoke_vijjii": invoke_vijjii,
+ "invoke_vijjji": invoke_vijjji,
  "invoke_vjiiii": invoke_vjiiii,
  "invoke_vjji": invoke_vjji,
  "_JS_Cursor_SetImage": _JS_Cursor_SetImage,
  "_JS_Cursor_SetShow": _JS_Cursor_SetShow,
  "_JS_Eval_ClearInterval": _JS_Eval_ClearInterval,
+ "_JS_Eval_OpenURL": _JS_Eval_OpenURL,
  "_JS_Eval_SetInterval": _JS_Eval_SetInterval,
  "_JS_FileSystem_Initialize": _JS_FileSystem_Initialize,
  "_JS_FileSystem_Sync": _JS_FileSystem_Sync,
@@ -18124,9 +18517,12 @@ Module.asmLibraryArg = {
  "_JS_Sound_SetPosition": _JS_Sound_SetPosition,
  "_JS_Sound_SetVolume": _JS_Sound_SetVolume,
  "_JS_Sound_Stop": _JS_Sound_Stop,
+ "_JS_SystemInfo_GetBrowserName": _JS_SystemInfo_GetBrowserName,
+ "_JS_SystemInfo_GetBrowserVersionString": _JS_SystemInfo_GetBrowserVersionString,
  "_JS_SystemInfo_GetCanvasClientSize": _JS_SystemInfo_GetCanvasClientSize,
  "_JS_SystemInfo_GetDocumentURL": _JS_SystemInfo_GetDocumentURL,
  "_JS_SystemInfo_GetGPUInfo": _JS_SystemInfo_GetGPUInfo,
+ "_JS_SystemInfo_GetLanguage": _JS_SystemInfo_GetLanguage,
  "_JS_SystemInfo_GetMemory": _JS_SystemInfo_GetMemory,
  "_JS_SystemInfo_GetOS": _JS_SystemInfo_GetOS,
  "_JS_SystemInfo_GetPreferredDevicePixelRatio": _JS_SystemInfo_GetPreferredDevicePixelRatio,
@@ -18134,6 +18530,15 @@ Module.asmLibraryArg = {
  "_JS_SystemInfo_HasCursorLock": _JS_SystemInfo_HasCursorLock,
  "_JS_SystemInfo_HasFullscreen": _JS_SystemInfo_HasFullscreen,
  "_JS_SystemInfo_HasWebGL": _JS_SystemInfo_HasWebGL,
+ "_JS_WebRequest_Abort": _JS_WebRequest_Abort,
+ "_JS_WebRequest_Create": _JS_WebRequest_Create,
+ "_JS_WebRequest_GetResponseHeaders": _JS_WebRequest_GetResponseHeaders,
+ "_JS_WebRequest_Release": _JS_WebRequest_Release,
+ "_JS_WebRequest_Send": _JS_WebRequest_Send,
+ "_JS_WebRequest_SetProgressHandler": _JS_WebRequest_SetProgressHandler,
+ "_JS_WebRequest_SetRequestHeader": _JS_WebRequest_SetRequestHeader,
+ "_JS_WebRequest_SetResponseHandler": _JS_WebRequest_SetResponseHandler,
+ "_JS_WebRequest_SetTimeout": _JS_WebRequest_SetTimeout,
  "__ZSt18uncaught_exceptionv": __ZSt18uncaught_exceptionv,
  "___atomic_fetch_add_8": ___atomic_fetch_add_8,
  "___buildEnvironment": ___buildEnvironment,
@@ -18460,6 +18865,7 @@ Module.asmLibraryArg = {
  "_localtime": _localtime,
  "_localtime_r": _localtime_r,
  "_mktime": _mktime,
+ "_openWindow": _openWindow,
  "_pthread_cond_destroy": _pthread_cond_destroy,
  "_pthread_cond_init": _pthread_cond_init,
  "_pthread_cond_timedwait": _pthread_cond_timedwait,
@@ -20256,11 +20662,11 @@ asm["___cxx_global_var_init"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init.apply(null, arguments);
 });
-var real____cxx_global_var_init_10_7591 = asm["___cxx_global_var_init_10_7591"];
-asm["___cxx_global_var_init_10_7591"] = (function() {
+var real____cxx_global_var_init_10_7600 = asm["___cxx_global_var_init_10_7600"];
+asm["___cxx_global_var_init_10_7600"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_10_7591.apply(null, arguments);
+ return real____cxx_global_var_init_10_7600.apply(null, arguments);
 });
 var real____cxx_global_var_init_11 = asm["___cxx_global_var_init_11"];
 asm["___cxx_global_var_init_11"] = (function() {
@@ -20304,11 +20710,11 @@ asm["___cxx_global_var_init_123"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_123.apply(null, arguments);
 });
-var real____cxx_global_var_init_123_6859 = asm["___cxx_global_var_init_123_6859"];
-asm["___cxx_global_var_init_123_6859"] = (function() {
+var real____cxx_global_var_init_123_6868 = asm["___cxx_global_var_init_123_6868"];
+asm["___cxx_global_var_init_123_6868"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_123_6859.apply(null, arguments);
+ return real____cxx_global_var_init_123_6868.apply(null, arguments);
 });
 var real____cxx_global_var_init_124 = asm["___cxx_global_var_init_124"];
 asm["___cxx_global_var_init_124"] = (function() {
@@ -20394,11 +20800,11 @@ asm["___cxx_global_var_init_169"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_169.apply(null, arguments);
 });
-var real____cxx_global_var_init_16_9131 = asm["___cxx_global_var_init_16_9131"];
-asm["___cxx_global_var_init_16_9131"] = (function() {
+var real____cxx_global_var_init_16_9140 = asm["___cxx_global_var_init_16_9140"];
+asm["___cxx_global_var_init_16_9140"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_16_9131.apply(null, arguments);
+ return real____cxx_global_var_init_16_9140.apply(null, arguments);
 });
 var real____cxx_global_var_init_17 = asm["___cxx_global_var_init_17"];
 asm["___cxx_global_var_init_17"] = (function() {
@@ -20490,11 +20896,11 @@ asm["___cxx_global_var_init_182"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_182.apply(null, arguments);
 });
-var real____cxx_global_var_init_182_8715 = asm["___cxx_global_var_init_182_8715"];
-asm["___cxx_global_var_init_182_8715"] = (function() {
+var real____cxx_global_var_init_182_8718 = asm["___cxx_global_var_init_182_8718"];
+asm["___cxx_global_var_init_182_8718"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_182_8715.apply(null, arguments);
+ return real____cxx_global_var_init_182_8718.apply(null, arguments);
 });
 var real____cxx_global_var_init_183 = asm["___cxx_global_var_init_183"];
 asm["___cxx_global_var_init_183"] = (function() {
@@ -20502,11 +20908,11 @@ asm["___cxx_global_var_init_183"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_183.apply(null, arguments);
 });
-var real____cxx_global_var_init_183_8716 = asm["___cxx_global_var_init_183_8716"];
-asm["___cxx_global_var_init_183_8716"] = (function() {
+var real____cxx_global_var_init_183_8719 = asm["___cxx_global_var_init_183_8719"];
+asm["___cxx_global_var_init_183_8719"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_183_8716.apply(null, arguments);
+ return real____cxx_global_var_init_183_8719.apply(null, arguments);
 });
 var real____cxx_global_var_init_184 = asm["___cxx_global_var_init_184"];
 asm["___cxx_global_var_init_184"] = (function() {
@@ -20514,11 +20920,11 @@ asm["___cxx_global_var_init_184"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_184.apply(null, arguments);
 });
-var real____cxx_global_var_init_184_8717 = asm["___cxx_global_var_init_184_8717"];
-asm["___cxx_global_var_init_184_8717"] = (function() {
+var real____cxx_global_var_init_184_8720 = asm["___cxx_global_var_init_184_8720"];
+asm["___cxx_global_var_init_184_8720"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_184_8717.apply(null, arguments);
+ return real____cxx_global_var_init_184_8720.apply(null, arguments);
 });
 var real____cxx_global_var_init_185 = asm["___cxx_global_var_init_185"];
 asm["___cxx_global_var_init_185"] = (function() {
@@ -20526,11 +20932,11 @@ asm["___cxx_global_var_init_185"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_185.apply(null, arguments);
 });
-var real____cxx_global_var_init_185_8718 = asm["___cxx_global_var_init_185_8718"];
-asm["___cxx_global_var_init_185_8718"] = (function() {
+var real____cxx_global_var_init_185_8721 = asm["___cxx_global_var_init_185_8721"];
+asm["___cxx_global_var_init_185_8721"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_185_8718.apply(null, arguments);
+ return real____cxx_global_var_init_185_8721.apply(null, arguments);
 });
 var real____cxx_global_var_init_186 = asm["___cxx_global_var_init_186"];
 asm["___cxx_global_var_init_186"] = (function() {
@@ -20538,11 +20944,11 @@ asm["___cxx_global_var_init_186"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_186.apply(null, arguments);
 });
-var real____cxx_global_var_init_186_8719 = asm["___cxx_global_var_init_186_8719"];
-asm["___cxx_global_var_init_186_8719"] = (function() {
+var real____cxx_global_var_init_186_8722 = asm["___cxx_global_var_init_186_8722"];
+asm["___cxx_global_var_init_186_8722"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_186_8719.apply(null, arguments);
+ return real____cxx_global_var_init_186_8722.apply(null, arguments);
 });
 var real____cxx_global_var_init_187 = asm["___cxx_global_var_init_187"];
 asm["___cxx_global_var_init_187"] = (function() {
@@ -20550,11 +20956,11 @@ asm["___cxx_global_var_init_187"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_187.apply(null, arguments);
 });
-var real____cxx_global_var_init_187_8720 = asm["___cxx_global_var_init_187_8720"];
-asm["___cxx_global_var_init_187_8720"] = (function() {
+var real____cxx_global_var_init_187_8723 = asm["___cxx_global_var_init_187_8723"];
+asm["___cxx_global_var_init_187_8723"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_187_8720.apply(null, arguments);
+ return real____cxx_global_var_init_187_8723.apply(null, arguments);
 });
 var real____cxx_global_var_init_188 = asm["___cxx_global_var_init_188"];
 asm["___cxx_global_var_init_188"] = (function() {
@@ -20562,11 +20968,11 @@ asm["___cxx_global_var_init_188"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_188.apply(null, arguments);
 });
-var real____cxx_global_var_init_188_8721 = asm["___cxx_global_var_init_188_8721"];
-asm["___cxx_global_var_init_188_8721"] = (function() {
+var real____cxx_global_var_init_188_8724 = asm["___cxx_global_var_init_188_8724"];
+asm["___cxx_global_var_init_188_8724"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_188_8721.apply(null, arguments);
+ return real____cxx_global_var_init_188_8724.apply(null, arguments);
 });
 var real____cxx_global_var_init_189 = asm["___cxx_global_var_init_189"];
 asm["___cxx_global_var_init_189"] = (function() {
@@ -20574,11 +20980,11 @@ asm["___cxx_global_var_init_189"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_189.apply(null, arguments);
 });
-var real____cxx_global_var_init_18_9132 = asm["___cxx_global_var_init_18_9132"];
-asm["___cxx_global_var_init_18_9132"] = (function() {
+var real____cxx_global_var_init_18_9141 = asm["___cxx_global_var_init_18_9141"];
+asm["___cxx_global_var_init_18_9141"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_18_9132.apply(null, arguments);
+ return real____cxx_global_var_init_18_9141.apply(null, arguments);
 });
 var real____cxx_global_var_init_19 = asm["___cxx_global_var_init_19"];
 asm["___cxx_global_var_init_19"] = (function() {
@@ -20646,23 +21052,23 @@ asm["___cxx_global_var_init_199"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_199.apply(null, arguments);
 });
-var real____cxx_global_var_init_19_9133 = asm["___cxx_global_var_init_19_9133"];
-asm["___cxx_global_var_init_19_9133"] = (function() {
+var real____cxx_global_var_init_19_9142 = asm["___cxx_global_var_init_19_9142"];
+asm["___cxx_global_var_init_19_9142"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_19_9133.apply(null, arguments);
+ return real____cxx_global_var_init_19_9142.apply(null, arguments);
 });
-var real____cxx_global_var_init_1_6744 = asm["___cxx_global_var_init_1_6744"];
-asm["___cxx_global_var_init_1_6744"] = (function() {
+var real____cxx_global_var_init_1_6753 = asm["___cxx_global_var_init_1_6753"];
+asm["___cxx_global_var_init_1_6753"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_1_6744.apply(null, arguments);
+ return real____cxx_global_var_init_1_6753.apply(null, arguments);
 });
-var real____cxx_global_var_init_1_8942 = asm["___cxx_global_var_init_1_8942"];
-asm["___cxx_global_var_init_1_8942"] = (function() {
+var real____cxx_global_var_init_1_8953 = asm["___cxx_global_var_init_1_8953"];
+asm["___cxx_global_var_init_1_8953"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_1_8942.apply(null, arguments);
+ return real____cxx_global_var_init_1_8953.apply(null, arguments);
 });
 var real____cxx_global_var_init_200 = asm["___cxx_global_var_init_200"];
 asm["___cxx_global_var_init_200"] = (function() {
@@ -20724,11 +21130,11 @@ asm["___cxx_global_var_init_209"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_209.apply(null, arguments);
 });
-var real____cxx_global_var_init_20_9134 = asm["___cxx_global_var_init_20_9134"];
-asm["___cxx_global_var_init_20_9134"] = (function() {
+var real____cxx_global_var_init_20_9143 = asm["___cxx_global_var_init_20_9143"];
+asm["___cxx_global_var_init_20_9143"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_20_9134.apply(null, arguments);
+ return real____cxx_global_var_init_20_9143.apply(null, arguments);
 });
 var real____cxx_global_var_init_21 = asm["___cxx_global_var_init_21"];
 asm["___cxx_global_var_init_21"] = (function() {
@@ -20772,23 +21178,23 @@ asm["___cxx_global_var_init_215_1160"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_215_1160.apply(null, arguments);
 });
-var real____cxx_global_var_init_21_9135 = asm["___cxx_global_var_init_21_9135"];
-asm["___cxx_global_var_init_21_9135"] = (function() {
+var real____cxx_global_var_init_21_9144 = asm["___cxx_global_var_init_21_9144"];
+asm["___cxx_global_var_init_21_9144"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_21_9135.apply(null, arguments);
+ return real____cxx_global_var_init_21_9144.apply(null, arguments);
 });
-var real____cxx_global_var_init_22_9136 = asm["___cxx_global_var_init_22_9136"];
-asm["___cxx_global_var_init_22_9136"] = (function() {
+var real____cxx_global_var_init_22_9145 = asm["___cxx_global_var_init_22_9145"];
+asm["___cxx_global_var_init_22_9145"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_22_9136.apply(null, arguments);
+ return real____cxx_global_var_init_22_9145.apply(null, arguments);
 });
-var real____cxx_global_var_init_22_9315 = asm["___cxx_global_var_init_22_9315"];
-asm["___cxx_global_var_init_22_9315"] = (function() {
+var real____cxx_global_var_init_22_9318 = asm["___cxx_global_var_init_22_9318"];
+asm["___cxx_global_var_init_22_9318"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_22_9315.apply(null, arguments);
+ return real____cxx_global_var_init_22_9318.apply(null, arguments);
 });
 var real____cxx_global_var_init_23 = asm["___cxx_global_var_init_23"];
 asm["___cxx_global_var_init_23"] = (function() {
@@ -20796,11 +21202,11 @@ asm["___cxx_global_var_init_23"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_23.apply(null, arguments);
 });
-var real____cxx_global_var_init_23_9137 = asm["___cxx_global_var_init_23_9137"];
-asm["___cxx_global_var_init_23_9137"] = (function() {
+var real____cxx_global_var_init_23_9146 = asm["___cxx_global_var_init_23_9146"];
+asm["___cxx_global_var_init_23_9146"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_23_9137.apply(null, arguments);
+ return real____cxx_global_var_init_23_9146.apply(null, arguments);
 });
 var real____cxx_global_var_init_24 = asm["___cxx_global_var_init_24"];
 asm["___cxx_global_var_init_24"] = (function() {
@@ -20808,17 +21214,17 @@ asm["___cxx_global_var_init_24"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_24.apply(null, arguments);
 });
-var real____cxx_global_var_init_24_9138 = asm["___cxx_global_var_init_24_9138"];
-asm["___cxx_global_var_init_24_9138"] = (function() {
+var real____cxx_global_var_init_24_9147 = asm["___cxx_global_var_init_24_9147"];
+asm["___cxx_global_var_init_24_9147"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_24_9138.apply(null, arguments);
+ return real____cxx_global_var_init_24_9147.apply(null, arguments);
 });
-var real____cxx_global_var_init_24_9316 = asm["___cxx_global_var_init_24_9316"];
-asm["___cxx_global_var_init_24_9316"] = (function() {
+var real____cxx_global_var_init_24_9319 = asm["___cxx_global_var_init_24_9319"];
+asm["___cxx_global_var_init_24_9319"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_24_9316.apply(null, arguments);
+ return real____cxx_global_var_init_24_9319.apply(null, arguments);
 });
 var real____cxx_global_var_init_25 = asm["___cxx_global_var_init_25"];
 asm["___cxx_global_var_init_25"] = (function() {
@@ -20832,29 +21238,29 @@ asm["___cxx_global_var_init_25_1161"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_25_1161.apply(null, arguments);
 });
-var real____cxx_global_var_init_26_5279 = asm["___cxx_global_var_init_26_5279"];
-asm["___cxx_global_var_init_26_5279"] = (function() {
+var real____cxx_global_var_init_26_5284 = asm["___cxx_global_var_init_26_5284"];
+asm["___cxx_global_var_init_26_5284"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_26_5279.apply(null, arguments);
+ return real____cxx_global_var_init_26_5284.apply(null, arguments);
 });
-var real____cxx_global_var_init_26_9317 = asm["___cxx_global_var_init_26_9317"];
-asm["___cxx_global_var_init_26_9317"] = (function() {
+var real____cxx_global_var_init_26_9320 = asm["___cxx_global_var_init_26_9320"];
+asm["___cxx_global_var_init_26_9320"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_26_9317.apply(null, arguments);
+ return real____cxx_global_var_init_26_9320.apply(null, arguments);
 });
-var real____cxx_global_var_init_28_4470 = asm["___cxx_global_var_init_28_4470"];
-asm["___cxx_global_var_init_28_4470"] = (function() {
+var real____cxx_global_var_init_28_4475 = asm["___cxx_global_var_init_28_4475"];
+asm["___cxx_global_var_init_28_4475"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_28_4470.apply(null, arguments);
+ return real____cxx_global_var_init_28_4475.apply(null, arguments);
 });
-var real____cxx_global_var_init_28_6783 = asm["___cxx_global_var_init_28_6783"];
-asm["___cxx_global_var_init_28_6783"] = (function() {
+var real____cxx_global_var_init_28_6793 = asm["___cxx_global_var_init_28_6793"];
+asm["___cxx_global_var_init_28_6793"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_28_6783.apply(null, arguments);
+ return real____cxx_global_var_init_28_6793.apply(null, arguments);
 });
 var real____cxx_global_var_init_29 = asm["___cxx_global_var_init_29"];
 asm["___cxx_global_var_init_29"] = (function() {
@@ -20862,29 +21268,29 @@ asm["___cxx_global_var_init_29"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_29.apply(null, arguments);
 });
-var real____cxx_global_var_init_29_6784 = asm["___cxx_global_var_init_29_6784"];
-asm["___cxx_global_var_init_29_6784"] = (function() {
+var real____cxx_global_var_init_29_6794 = asm["___cxx_global_var_init_29_6794"];
+asm["___cxx_global_var_init_29_6794"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_29_6784.apply(null, arguments);
+ return real____cxx_global_var_init_29_6794.apply(null, arguments);
 });
-var real____cxx_global_var_init_2_10941 = asm["___cxx_global_var_init_2_10941"];
-asm["___cxx_global_var_init_2_10941"] = (function() {
+var real____cxx_global_var_init_2_10946 = asm["___cxx_global_var_init_2_10946"];
+asm["___cxx_global_var_init_2_10946"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_2_10941.apply(null, arguments);
+ return real____cxx_global_var_init_2_10946.apply(null, arguments);
 });
-var real____cxx_global_var_init_30_3902 = asm["___cxx_global_var_init_30_3902"];
-asm["___cxx_global_var_init_30_3902"] = (function() {
+var real____cxx_global_var_init_30_3905 = asm["___cxx_global_var_init_30_3905"];
+asm["___cxx_global_var_init_30_3905"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_30_3902.apply(null, arguments);
+ return real____cxx_global_var_init_30_3905.apply(null, arguments);
 });
-var real____cxx_global_var_init_30_9101 = asm["___cxx_global_var_init_30_9101"];
-asm["___cxx_global_var_init_30_9101"] = (function() {
+var real____cxx_global_var_init_30_9104 = asm["___cxx_global_var_init_30_9104"];
+asm["___cxx_global_var_init_30_9104"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_30_9101.apply(null, arguments);
+ return real____cxx_global_var_init_30_9104.apply(null, arguments);
 });
 var real____cxx_global_var_init_31 = asm["___cxx_global_var_init_31"];
 asm["___cxx_global_var_init_31"] = (function() {
@@ -20892,17 +21298,17 @@ asm["___cxx_global_var_init_31"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_31.apply(null, arguments);
 });
-var real____cxx_global_var_init_31_3903 = asm["___cxx_global_var_init_31_3903"];
-asm["___cxx_global_var_init_31_3903"] = (function() {
+var real____cxx_global_var_init_31_3906 = asm["___cxx_global_var_init_31_3906"];
+asm["___cxx_global_var_init_31_3906"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_31_3903.apply(null, arguments);
+ return real____cxx_global_var_init_31_3906.apply(null, arguments);
 });
-var real____cxx_global_var_init_32_9102 = asm["___cxx_global_var_init_32_9102"];
-asm["___cxx_global_var_init_32_9102"] = (function() {
+var real____cxx_global_var_init_32_9105 = asm["___cxx_global_var_init_32_9105"];
+asm["___cxx_global_var_init_32_9105"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_32_9102.apply(null, arguments);
+ return real____cxx_global_var_init_32_9105.apply(null, arguments);
 });
 var real____cxx_global_var_init_33 = asm["___cxx_global_var_init_33"];
 asm["___cxx_global_var_init_33"] = (function() {
@@ -20910,17 +21316,17 @@ asm["___cxx_global_var_init_33"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_33.apply(null, arguments);
 });
-var real____cxx_global_var_init_33_9914 = asm["___cxx_global_var_init_33_9914"];
-asm["___cxx_global_var_init_33_9914"] = (function() {
+var real____cxx_global_var_init_33_9917 = asm["___cxx_global_var_init_33_9917"];
+asm["___cxx_global_var_init_33_9917"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_33_9914.apply(null, arguments);
+ return real____cxx_global_var_init_33_9917.apply(null, arguments);
 });
-var real____cxx_global_var_init_34_9103 = asm["___cxx_global_var_init_34_9103"];
-asm["___cxx_global_var_init_34_9103"] = (function() {
+var real____cxx_global_var_init_34_9106 = asm["___cxx_global_var_init_34_9106"];
+asm["___cxx_global_var_init_34_9106"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_34_9103.apply(null, arguments);
+ return real____cxx_global_var_init_34_9106.apply(null, arguments);
 });
 var real____cxx_global_var_init_35 = asm["___cxx_global_var_init_35"];
 asm["___cxx_global_var_init_35"] = (function() {
@@ -20928,11 +21334,11 @@ asm["___cxx_global_var_init_35"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_35.apply(null, arguments);
 });
-var real____cxx_global_var_init_35_7267 = asm["___cxx_global_var_init_35_7267"];
-asm["___cxx_global_var_init_35_7267"] = (function() {
+var real____cxx_global_var_init_35_7276 = asm["___cxx_global_var_init_35_7276"];
+asm["___cxx_global_var_init_35_7276"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_35_7267.apply(null, arguments);
+ return real____cxx_global_var_init_35_7276.apply(null, arguments);
 });
 var real____cxx_global_var_init_36 = asm["___cxx_global_var_init_36"];
 asm["___cxx_global_var_init_36"] = (function() {
@@ -20940,11 +21346,11 @@ asm["___cxx_global_var_init_36"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_36.apply(null, arguments);
 });
-var real____cxx_global_var_init_36_12710 = asm["___cxx_global_var_init_36_12710"];
-asm["___cxx_global_var_init_36_12710"] = (function() {
+var real____cxx_global_var_init_36_12715 = asm["___cxx_global_var_init_36_12715"];
+asm["___cxx_global_var_init_36_12715"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_36_12710.apply(null, arguments);
+ return real____cxx_global_var_init_36_12715.apply(null, arguments);
 });
 var real____cxx_global_var_init_37 = asm["___cxx_global_var_init_37"];
 asm["___cxx_global_var_init_37"] = (function() {
@@ -20952,11 +21358,11 @@ asm["___cxx_global_var_init_37"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_37.apply(null, arguments);
 });
-var real____cxx_global_var_init_37_12711 = asm["___cxx_global_var_init_37_12711"];
-asm["___cxx_global_var_init_37_12711"] = (function() {
+var real____cxx_global_var_init_37_12716 = asm["___cxx_global_var_init_37_12716"];
+asm["___cxx_global_var_init_37_12716"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_37_12711.apply(null, arguments);
+ return real____cxx_global_var_init_37_12716.apply(null, arguments);
 });
 var real____cxx_global_var_init_38 = asm["___cxx_global_var_init_38"];
 asm["___cxx_global_var_init_38"] = (function() {
@@ -20964,17 +21370,17 @@ asm["___cxx_global_var_init_38"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_38.apply(null, arguments);
 });
-var real____cxx_global_var_init_3811 = asm["___cxx_global_var_init_3811"];
-asm["___cxx_global_var_init_3811"] = (function() {
+var real____cxx_global_var_init_3814 = asm["___cxx_global_var_init_3814"];
+asm["___cxx_global_var_init_3814"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_3811.apply(null, arguments);
+ return real____cxx_global_var_init_3814.apply(null, arguments);
 });
-var real____cxx_global_var_init_38_12712 = asm["___cxx_global_var_init_38_12712"];
-asm["___cxx_global_var_init_38_12712"] = (function() {
+var real____cxx_global_var_init_38_12717 = asm["___cxx_global_var_init_38_12717"];
+asm["___cxx_global_var_init_38_12717"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_38_12712.apply(null, arguments);
+ return real____cxx_global_var_init_38_12717.apply(null, arguments);
 });
 var real____cxx_global_var_init_39 = asm["___cxx_global_var_init_39"];
 asm["___cxx_global_var_init_39"] = (function() {
@@ -20982,17 +21388,17 @@ asm["___cxx_global_var_init_39"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_39.apply(null, arguments);
 });
-var real____cxx_global_var_init_39_7754 = asm["___cxx_global_var_init_39_7754"];
-asm["___cxx_global_var_init_39_7754"] = (function() {
+var real____cxx_global_var_init_39_7764 = asm["___cxx_global_var_init_39_7764"];
+asm["___cxx_global_var_init_39_7764"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_39_7754.apply(null, arguments);
+ return real____cxx_global_var_init_39_7764.apply(null, arguments);
 });
-var real____cxx_global_var_init_3_4127 = asm["___cxx_global_var_init_3_4127"];
-asm["___cxx_global_var_init_3_4127"] = (function() {
+var real____cxx_global_var_init_3_4130 = asm["___cxx_global_var_init_3_4130"];
+asm["___cxx_global_var_init_3_4130"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_3_4127.apply(null, arguments);
+ return real____cxx_global_var_init_3_4130.apply(null, arguments);
 });
 var real____cxx_global_var_init_40 = asm["___cxx_global_var_init_40"];
 asm["___cxx_global_var_init_40"] = (function() {
@@ -21000,23 +21406,23 @@ asm["___cxx_global_var_init_40"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_40.apply(null, arguments);
 });
-var real____cxx_global_var_init_40_13403 = asm["___cxx_global_var_init_40_13403"];
-asm["___cxx_global_var_init_40_13403"] = (function() {
+var real____cxx_global_var_init_40_13408 = asm["___cxx_global_var_init_40_13408"];
+asm["___cxx_global_var_init_40_13408"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_40_13403.apply(null, arguments);
+ return real____cxx_global_var_init_40_13408.apply(null, arguments);
 });
-var real____cxx_global_var_init_40_7755 = asm["___cxx_global_var_init_40_7755"];
-asm["___cxx_global_var_init_40_7755"] = (function() {
+var real____cxx_global_var_init_40_7765 = asm["___cxx_global_var_init_40_7765"];
+asm["___cxx_global_var_init_40_7765"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_40_7755.apply(null, arguments);
+ return real____cxx_global_var_init_40_7765.apply(null, arguments);
 });
-var real____cxx_global_var_init_40_9126 = asm["___cxx_global_var_init_40_9126"];
-asm["___cxx_global_var_init_40_9126"] = (function() {
+var real____cxx_global_var_init_40_9135 = asm["___cxx_global_var_init_40_9135"];
+asm["___cxx_global_var_init_40_9135"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_40_9126.apply(null, arguments);
+ return real____cxx_global_var_init_40_9135.apply(null, arguments);
 });
 var real____cxx_global_var_init_41 = asm["___cxx_global_var_init_41"];
 asm["___cxx_global_var_init_41"] = (function() {
@@ -21024,17 +21430,17 @@ asm["___cxx_global_var_init_41"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_41.apply(null, arguments);
 });
-var real____cxx_global_var_init_41_7756 = asm["___cxx_global_var_init_41_7756"];
-asm["___cxx_global_var_init_41_7756"] = (function() {
+var real____cxx_global_var_init_41_7766 = asm["___cxx_global_var_init_41_7766"];
+asm["___cxx_global_var_init_41_7766"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_41_7756.apply(null, arguments);
+ return real____cxx_global_var_init_41_7766.apply(null, arguments);
 });
-var real____cxx_global_var_init_41_9127 = asm["___cxx_global_var_init_41_9127"];
-asm["___cxx_global_var_init_41_9127"] = (function() {
+var real____cxx_global_var_init_41_9136 = asm["___cxx_global_var_init_41_9136"];
+asm["___cxx_global_var_init_41_9136"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_41_9127.apply(null, arguments);
+ return real____cxx_global_var_init_41_9136.apply(null, arguments);
 });
 var real____cxx_global_var_init_42 = asm["___cxx_global_var_init_42"];
 asm["___cxx_global_var_init_42"] = (function() {
@@ -21042,17 +21448,17 @@ asm["___cxx_global_var_init_42"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_42.apply(null, arguments);
 });
-var real____cxx_global_var_init_42_7757 = asm["___cxx_global_var_init_42_7757"];
-asm["___cxx_global_var_init_42_7757"] = (function() {
+var real____cxx_global_var_init_42_7767 = asm["___cxx_global_var_init_42_7767"];
+asm["___cxx_global_var_init_42_7767"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_42_7757.apply(null, arguments);
+ return real____cxx_global_var_init_42_7767.apply(null, arguments);
 });
-var real____cxx_global_var_init_42_9128 = asm["___cxx_global_var_init_42_9128"];
-asm["___cxx_global_var_init_42_9128"] = (function() {
+var real____cxx_global_var_init_42_9137 = asm["___cxx_global_var_init_42_9137"];
+asm["___cxx_global_var_init_42_9137"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_42_9128.apply(null, arguments);
+ return real____cxx_global_var_init_42_9137.apply(null, arguments);
 });
 var real____cxx_global_var_init_43 = asm["___cxx_global_var_init_43"];
 asm["___cxx_global_var_init_43"] = (function() {
@@ -21060,17 +21466,17 @@ asm["___cxx_global_var_init_43"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_43.apply(null, arguments);
 });
-var real____cxx_global_var_init_43_7758 = asm["___cxx_global_var_init_43_7758"];
-asm["___cxx_global_var_init_43_7758"] = (function() {
+var real____cxx_global_var_init_43_7768 = asm["___cxx_global_var_init_43_7768"];
+asm["___cxx_global_var_init_43_7768"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_43_7758.apply(null, arguments);
+ return real____cxx_global_var_init_43_7768.apply(null, arguments);
 });
-var real____cxx_global_var_init_43_9129 = asm["___cxx_global_var_init_43_9129"];
-asm["___cxx_global_var_init_43_9129"] = (function() {
+var real____cxx_global_var_init_43_9138 = asm["___cxx_global_var_init_43_9138"];
+asm["___cxx_global_var_init_43_9138"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_43_9129.apply(null, arguments);
+ return real____cxx_global_var_init_43_9138.apply(null, arguments);
 });
 var real____cxx_global_var_init_44 = asm["___cxx_global_var_init_44"];
 asm["___cxx_global_var_init_44"] = (function() {
@@ -21078,29 +21484,29 @@ asm["___cxx_global_var_init_44"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_44.apply(null, arguments);
 });
-var real____cxx_global_var_init_44_4467 = asm["___cxx_global_var_init_44_4467"];
-asm["___cxx_global_var_init_44_4467"] = (function() {
+var real____cxx_global_var_init_44_4472 = asm["___cxx_global_var_init_44_4472"];
+asm["___cxx_global_var_init_44_4472"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_44_4467.apply(null, arguments);
+ return real____cxx_global_var_init_44_4472.apply(null, arguments);
 });
-var real____cxx_global_var_init_44_7452 = asm["___cxx_global_var_init_44_7452"];
-asm["___cxx_global_var_init_44_7452"] = (function() {
+var real____cxx_global_var_init_44_7461 = asm["___cxx_global_var_init_44_7461"];
+asm["___cxx_global_var_init_44_7461"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_44_7452.apply(null, arguments);
+ return real____cxx_global_var_init_44_7461.apply(null, arguments);
 });
-var real____cxx_global_var_init_44_7759 = asm["___cxx_global_var_init_44_7759"];
-asm["___cxx_global_var_init_44_7759"] = (function() {
+var real____cxx_global_var_init_44_7769 = asm["___cxx_global_var_init_44_7769"];
+asm["___cxx_global_var_init_44_7769"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_44_7759.apply(null, arguments);
+ return real____cxx_global_var_init_44_7769.apply(null, arguments);
 });
-var real____cxx_global_var_init_44_9130 = asm["___cxx_global_var_init_44_9130"];
-asm["___cxx_global_var_init_44_9130"] = (function() {
+var real____cxx_global_var_init_44_9139 = asm["___cxx_global_var_init_44_9139"];
+asm["___cxx_global_var_init_44_9139"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_44_9130.apply(null, arguments);
+ return real____cxx_global_var_init_44_9139.apply(null, arguments);
 });
 var real____cxx_global_var_init_45 = asm["___cxx_global_var_init_45"];
 asm["___cxx_global_var_init_45"] = (function() {
@@ -21108,17 +21514,17 @@ asm["___cxx_global_var_init_45"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_45.apply(null, arguments);
 });
-var real____cxx_global_var_init_45_4468 = asm["___cxx_global_var_init_45_4468"];
-asm["___cxx_global_var_init_45_4468"] = (function() {
+var real____cxx_global_var_init_45_4473 = asm["___cxx_global_var_init_45_4473"];
+asm["___cxx_global_var_init_45_4473"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_45_4468.apply(null, arguments);
+ return real____cxx_global_var_init_45_4473.apply(null, arguments);
 });
-var real____cxx_global_var_init_45_7760 = asm["___cxx_global_var_init_45_7760"];
-asm["___cxx_global_var_init_45_7760"] = (function() {
+var real____cxx_global_var_init_45_7770 = asm["___cxx_global_var_init_45_7770"];
+asm["___cxx_global_var_init_45_7770"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_45_7760.apply(null, arguments);
+ return real____cxx_global_var_init_45_7770.apply(null, arguments);
 });
 var real____cxx_global_var_init_46 = asm["___cxx_global_var_init_46"];
 asm["___cxx_global_var_init_46"] = (function() {
@@ -21126,11 +21532,11 @@ asm["___cxx_global_var_init_46"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_46.apply(null, arguments);
 });
-var real____cxx_global_var_init_46_4469 = asm["___cxx_global_var_init_46_4469"];
-asm["___cxx_global_var_init_46_4469"] = (function() {
+var real____cxx_global_var_init_46_4474 = asm["___cxx_global_var_init_46_4474"];
+asm["___cxx_global_var_init_46_4474"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_46_4469.apply(null, arguments);
+ return real____cxx_global_var_init_46_4474.apply(null, arguments);
 });
 var real____cxx_global_var_init_47 = asm["___cxx_global_var_init_47"];
 asm["___cxx_global_var_init_47"] = (function() {
@@ -21162,11 +21568,11 @@ asm["___cxx_global_var_init_4_669"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_4_669.apply(null, arguments);
 });
-var real____cxx_global_var_init_4_6690 = asm["___cxx_global_var_init_4_6690"];
-asm["___cxx_global_var_init_4_6690"] = (function() {
+var real____cxx_global_var_init_4_6698 = asm["___cxx_global_var_init_4_6698"];
+asm["___cxx_global_var_init_4_6698"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_4_6690.apply(null, arguments);
+ return real____cxx_global_var_init_4_6698.apply(null, arguments);
 });
 var real____cxx_global_var_init_5 = asm["___cxx_global_var_init_5"];
 asm["___cxx_global_var_init_5"] = (function() {
@@ -21228,11 +21634,11 @@ asm["___cxx_global_var_init_69"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_69.apply(null, arguments);
 });
-var real____cxx_global_var_init_6_4214 = asm["___cxx_global_var_init_6_4214"];
-asm["___cxx_global_var_init_6_4214"] = (function() {
+var real____cxx_global_var_init_6_4218 = asm["___cxx_global_var_init_6_4218"];
+asm["___cxx_global_var_init_6_4218"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_6_4214.apply(null, arguments);
+ return real____cxx_global_var_init_6_4218.apply(null, arguments);
 });
 var real____cxx_global_var_init_7 = asm["___cxx_global_var_init_7"];
 asm["___cxx_global_var_init_7"] = (function() {
@@ -21240,11 +21646,11 @@ asm["___cxx_global_var_init_7"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_7.apply(null, arguments);
 });
-var real____cxx_global_var_init_7266 = asm["___cxx_global_var_init_7266"];
-asm["___cxx_global_var_init_7266"] = (function() {
+var real____cxx_global_var_init_7275 = asm["___cxx_global_var_init_7275"];
+asm["___cxx_global_var_init_7275"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_7266.apply(null, arguments);
+ return real____cxx_global_var_init_7275.apply(null, arguments);
 });
 var real____cxx_global_var_init_73 = asm["___cxx_global_var_init_73"];
 asm["___cxx_global_var_init_73"] = (function() {
@@ -21258,11 +21664,11 @@ asm["___cxx_global_var_init_75"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_75.apply(null, arguments);
 });
-var real____cxx_global_var_init_75_8769 = asm["___cxx_global_var_init_75_8769"];
-asm["___cxx_global_var_init_75_8769"] = (function() {
+var real____cxx_global_var_init_75_8780 = asm["___cxx_global_var_init_75_8780"];
+asm["___cxx_global_var_init_75_8780"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_75_8769.apply(null, arguments);
+ return real____cxx_global_var_init_75_8780.apply(null, arguments);
 });
 var real____cxx_global_var_init_77 = asm["___cxx_global_var_init_77"];
 asm["___cxx_global_var_init_77"] = (function() {
@@ -21276,11 +21682,11 @@ asm["___cxx_global_var_init_77_1159"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_77_1159.apply(null, arguments);
 });
-var real____cxx_global_var_init_77_5865 = asm["___cxx_global_var_init_77_5865"];
-asm["___cxx_global_var_init_77_5865"] = (function() {
+var real____cxx_global_var_init_77_5871 = asm["___cxx_global_var_init_77_5871"];
+asm["___cxx_global_var_init_77_5871"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_77_5865.apply(null, arguments);
+ return real____cxx_global_var_init_77_5871.apply(null, arguments);
 });
 var real____cxx_global_var_init_78 = asm["___cxx_global_var_init_78"];
 asm["___cxx_global_var_init_78"] = (function() {
@@ -21294,23 +21700,17 @@ asm["___cxx_global_var_init_79"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_79.apply(null, arguments);
 });
-var real____cxx_global_var_init_7988 = asm["___cxx_global_var_init_7988"];
-asm["___cxx_global_var_init_7988"] = (function() {
+var real____cxx_global_var_init_7_4219 = asm["___cxx_global_var_init_7_4219"];
+asm["___cxx_global_var_init_7_4219"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_7988.apply(null, arguments);
+ return real____cxx_global_var_init_7_4219.apply(null, arguments);
 });
-var real____cxx_global_var_init_7_4215 = asm["___cxx_global_var_init_7_4215"];
-asm["___cxx_global_var_init_7_4215"] = (function() {
+var real____cxx_global_var_init_7_6635 = asm["___cxx_global_var_init_7_6635"];
+asm["___cxx_global_var_init_7_6635"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_7_4215.apply(null, arguments);
-});
-var real____cxx_global_var_init_7_6628 = asm["___cxx_global_var_init_7_6628"];
-asm["___cxx_global_var_init_7_6628"] = (function() {
- assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
- assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_7_6628.apply(null, arguments);
+ return real____cxx_global_var_init_7_6635.apply(null, arguments);
 });
 var real____cxx_global_var_init_80 = asm["___cxx_global_var_init_80"];
 asm["___cxx_global_var_init_80"] = (function() {
@@ -21318,17 +21718,23 @@ asm["___cxx_global_var_init_80"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_80.apply(null, arguments);
 });
+var real____cxx_global_var_init_8000 = asm["___cxx_global_var_init_8000"];
+asm["___cxx_global_var_init_8000"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return real____cxx_global_var_init_8000.apply(null, arguments);
+});
 var real____cxx_global_var_init_81 = asm["___cxx_global_var_init_81"];
 asm["___cxx_global_var_init_81"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_81.apply(null, arguments);
 });
-var real____cxx_global_var_init_81_5866 = asm["___cxx_global_var_init_81_5866"];
-asm["___cxx_global_var_init_81_5866"] = (function() {
+var real____cxx_global_var_init_81_5872 = asm["___cxx_global_var_init_81_5872"];
+asm["___cxx_global_var_init_81_5872"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_81_5866.apply(null, arguments);
+ return real____cxx_global_var_init_81_5872.apply(null, arguments);
 });
 var real____cxx_global_var_init_87 = asm["___cxx_global_var_init_87"];
 asm["___cxx_global_var_init_87"] = (function() {
@@ -21336,17 +21742,17 @@ asm["___cxx_global_var_init_87"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real____cxx_global_var_init_87.apply(null, arguments);
 });
-var real____cxx_global_var_init_8941 = asm["___cxx_global_var_init_8941"];
-asm["___cxx_global_var_init_8941"] = (function() {
+var real____cxx_global_var_init_8952 = asm["___cxx_global_var_init_8952"];
+asm["___cxx_global_var_init_8952"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_8941.apply(null, arguments);
+ return real____cxx_global_var_init_8952.apply(null, arguments);
 });
-var real____cxx_global_var_init_8_4216 = asm["___cxx_global_var_init_8_4216"];
-asm["___cxx_global_var_init_8_4216"] = (function() {
+var real____cxx_global_var_init_8_4220 = asm["___cxx_global_var_init_8_4220"];
+asm["___cxx_global_var_init_8_4220"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return real____cxx_global_var_init_8_4216.apply(null, arguments);
+ return real____cxx_global_var_init_8_4220.apply(null, arguments);
 });
 var real____cxx_global_var_init_9 = asm["___cxx_global_var_init_9"];
 asm["___cxx_global_var_init_9"] = (function() {
@@ -21431,6 +21837,12 @@ asm["_llvm_bswap_i32"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return real__llvm_bswap_i32.apply(null, arguments);
+});
+var real__llvm_ctlz_i64 = asm["_llvm_ctlz_i64"];
+asm["_llvm_ctlz_i64"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return real__llvm_ctlz_i64.apply(null, arguments);
 });
 var real__llvm_ctpop_i32 = asm["_llvm_ctpop_i32"];
 asm["_llvm_ctpop_i32"] = (function() {
@@ -23031,10 +23443,10 @@ var ___cxx_global_var_init = Module["___cxx_global_var_init"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init"].apply(null, arguments);
 });
-var ___cxx_global_var_init_10_7591 = Module["___cxx_global_var_init_10_7591"] = (function() {
+var ___cxx_global_var_init_10_7600 = Module["___cxx_global_var_init_10_7600"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_10_7591"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_10_7600"].apply(null, arguments);
 });
 var ___cxx_global_var_init_11 = Module["___cxx_global_var_init_11"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23071,10 +23483,10 @@ var ___cxx_global_var_init_123 = Module["___cxx_global_var_init_123"] = (functio
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_123"].apply(null, arguments);
 });
-var ___cxx_global_var_init_123_6859 = Module["___cxx_global_var_init_123_6859"] = (function() {
+var ___cxx_global_var_init_123_6868 = Module["___cxx_global_var_init_123_6868"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_123_6859"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_123_6868"].apply(null, arguments);
 });
 var ___cxx_global_var_init_124 = Module["___cxx_global_var_init_124"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23146,10 +23558,10 @@ var ___cxx_global_var_init_169 = Module["___cxx_global_var_init_169"] = (functio
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_169"].apply(null, arguments);
 });
-var ___cxx_global_var_init_16_9131 = Module["___cxx_global_var_init_16_9131"] = (function() {
+var ___cxx_global_var_init_16_9140 = Module["___cxx_global_var_init_16_9140"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_16_9131"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_16_9140"].apply(null, arguments);
 });
 var ___cxx_global_var_init_17 = Module["___cxx_global_var_init_17"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23226,80 +23638,80 @@ var ___cxx_global_var_init_182 = Module["___cxx_global_var_init_182"] = (functio
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_182"].apply(null, arguments);
 });
-var ___cxx_global_var_init_182_8715 = Module["___cxx_global_var_init_182_8715"] = (function() {
+var ___cxx_global_var_init_182_8718 = Module["___cxx_global_var_init_182_8718"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_182_8715"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_182_8718"].apply(null, arguments);
 });
 var ___cxx_global_var_init_183 = Module["___cxx_global_var_init_183"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_183"].apply(null, arguments);
 });
-var ___cxx_global_var_init_183_8716 = Module["___cxx_global_var_init_183_8716"] = (function() {
+var ___cxx_global_var_init_183_8719 = Module["___cxx_global_var_init_183_8719"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_183_8716"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_183_8719"].apply(null, arguments);
 });
 var ___cxx_global_var_init_184 = Module["___cxx_global_var_init_184"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_184"].apply(null, arguments);
 });
-var ___cxx_global_var_init_184_8717 = Module["___cxx_global_var_init_184_8717"] = (function() {
+var ___cxx_global_var_init_184_8720 = Module["___cxx_global_var_init_184_8720"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_184_8717"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_184_8720"].apply(null, arguments);
 });
 var ___cxx_global_var_init_185 = Module["___cxx_global_var_init_185"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_185"].apply(null, arguments);
 });
-var ___cxx_global_var_init_185_8718 = Module["___cxx_global_var_init_185_8718"] = (function() {
+var ___cxx_global_var_init_185_8721 = Module["___cxx_global_var_init_185_8721"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_185_8718"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_185_8721"].apply(null, arguments);
 });
 var ___cxx_global_var_init_186 = Module["___cxx_global_var_init_186"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_186"].apply(null, arguments);
 });
-var ___cxx_global_var_init_186_8719 = Module["___cxx_global_var_init_186_8719"] = (function() {
+var ___cxx_global_var_init_186_8722 = Module["___cxx_global_var_init_186_8722"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_186_8719"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_186_8722"].apply(null, arguments);
 });
 var ___cxx_global_var_init_187 = Module["___cxx_global_var_init_187"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_187"].apply(null, arguments);
 });
-var ___cxx_global_var_init_187_8720 = Module["___cxx_global_var_init_187_8720"] = (function() {
+var ___cxx_global_var_init_187_8723 = Module["___cxx_global_var_init_187_8723"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_187_8720"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_187_8723"].apply(null, arguments);
 });
 var ___cxx_global_var_init_188 = Module["___cxx_global_var_init_188"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_188"].apply(null, arguments);
 });
-var ___cxx_global_var_init_188_8721 = Module["___cxx_global_var_init_188_8721"] = (function() {
+var ___cxx_global_var_init_188_8724 = Module["___cxx_global_var_init_188_8724"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_188_8721"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_188_8724"].apply(null, arguments);
 });
 var ___cxx_global_var_init_189 = Module["___cxx_global_var_init_189"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_189"].apply(null, arguments);
 });
-var ___cxx_global_var_init_18_9132 = Module["___cxx_global_var_init_18_9132"] = (function() {
+var ___cxx_global_var_init_18_9141 = Module["___cxx_global_var_init_18_9141"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_18_9132"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_18_9141"].apply(null, arguments);
 });
 var ___cxx_global_var_init_19 = Module["___cxx_global_var_init_19"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23356,20 +23768,20 @@ var ___cxx_global_var_init_199 = Module["___cxx_global_var_init_199"] = (functio
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_199"].apply(null, arguments);
 });
-var ___cxx_global_var_init_19_9133 = Module["___cxx_global_var_init_19_9133"] = (function() {
+var ___cxx_global_var_init_19_9142 = Module["___cxx_global_var_init_19_9142"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_19_9133"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_19_9142"].apply(null, arguments);
 });
-var ___cxx_global_var_init_1_6744 = Module["___cxx_global_var_init_1_6744"] = (function() {
+var ___cxx_global_var_init_1_6753 = Module["___cxx_global_var_init_1_6753"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_1_6744"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_1_6753"].apply(null, arguments);
 });
-var ___cxx_global_var_init_1_8942 = Module["___cxx_global_var_init_1_8942"] = (function() {
+var ___cxx_global_var_init_1_8953 = Module["___cxx_global_var_init_1_8953"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_1_8942"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_1_8953"].apply(null, arguments);
 });
 var ___cxx_global_var_init_200 = Module["___cxx_global_var_init_200"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23421,10 +23833,10 @@ var ___cxx_global_var_init_209 = Module["___cxx_global_var_init_209"] = (functio
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_209"].apply(null, arguments);
 });
-var ___cxx_global_var_init_20_9134 = Module["___cxx_global_var_init_20_9134"] = (function() {
+var ___cxx_global_var_init_20_9143 = Module["___cxx_global_var_init_20_9143"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_20_9134"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_20_9143"].apply(null, arguments);
 });
 var ___cxx_global_var_init_21 = Module["___cxx_global_var_init_21"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23461,45 +23873,45 @@ var ___cxx_global_var_init_215_1160 = Module["___cxx_global_var_init_215_1160"] 
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_215_1160"].apply(null, arguments);
 });
-var ___cxx_global_var_init_21_9135 = Module["___cxx_global_var_init_21_9135"] = (function() {
+var ___cxx_global_var_init_21_9144 = Module["___cxx_global_var_init_21_9144"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_21_9135"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_21_9144"].apply(null, arguments);
 });
-var ___cxx_global_var_init_22_9136 = Module["___cxx_global_var_init_22_9136"] = (function() {
+var ___cxx_global_var_init_22_9145 = Module["___cxx_global_var_init_22_9145"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_22_9136"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_22_9145"].apply(null, arguments);
 });
-var ___cxx_global_var_init_22_9315 = Module["___cxx_global_var_init_22_9315"] = (function() {
+var ___cxx_global_var_init_22_9318 = Module["___cxx_global_var_init_22_9318"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_22_9315"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_22_9318"].apply(null, arguments);
 });
 var ___cxx_global_var_init_23 = Module["___cxx_global_var_init_23"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_23"].apply(null, arguments);
 });
-var ___cxx_global_var_init_23_9137 = Module["___cxx_global_var_init_23_9137"] = (function() {
+var ___cxx_global_var_init_23_9146 = Module["___cxx_global_var_init_23_9146"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_23_9137"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_23_9146"].apply(null, arguments);
 });
 var ___cxx_global_var_init_24 = Module["___cxx_global_var_init_24"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_24"].apply(null, arguments);
 });
-var ___cxx_global_var_init_24_9138 = Module["___cxx_global_var_init_24_9138"] = (function() {
+var ___cxx_global_var_init_24_9147 = Module["___cxx_global_var_init_24_9147"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_24_9138"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_24_9147"].apply(null, arguments);
 });
-var ___cxx_global_var_init_24_9316 = Module["___cxx_global_var_init_24_9316"] = (function() {
+var ___cxx_global_var_init_24_9319 = Module["___cxx_global_var_init_24_9319"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_24_9316"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_24_9319"].apply(null, arguments);
 });
 var ___cxx_global_var_init_25 = Module["___cxx_global_var_init_25"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23511,255 +23923,255 @@ var ___cxx_global_var_init_25_1161 = Module["___cxx_global_var_init_25_1161"] = 
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_25_1161"].apply(null, arguments);
 });
-var ___cxx_global_var_init_26_5279 = Module["___cxx_global_var_init_26_5279"] = (function() {
+var ___cxx_global_var_init_26_5284 = Module["___cxx_global_var_init_26_5284"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_26_5279"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_26_5284"].apply(null, arguments);
 });
-var ___cxx_global_var_init_26_9317 = Module["___cxx_global_var_init_26_9317"] = (function() {
+var ___cxx_global_var_init_26_9320 = Module["___cxx_global_var_init_26_9320"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_26_9317"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_26_9320"].apply(null, arguments);
 });
-var ___cxx_global_var_init_28_4470 = Module["___cxx_global_var_init_28_4470"] = (function() {
+var ___cxx_global_var_init_28_4475 = Module["___cxx_global_var_init_28_4475"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_28_4470"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_28_4475"].apply(null, arguments);
 });
-var ___cxx_global_var_init_28_6783 = Module["___cxx_global_var_init_28_6783"] = (function() {
+var ___cxx_global_var_init_28_6793 = Module["___cxx_global_var_init_28_6793"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_28_6783"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_28_6793"].apply(null, arguments);
 });
 var ___cxx_global_var_init_29 = Module["___cxx_global_var_init_29"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_29"].apply(null, arguments);
 });
-var ___cxx_global_var_init_29_6784 = Module["___cxx_global_var_init_29_6784"] = (function() {
+var ___cxx_global_var_init_29_6794 = Module["___cxx_global_var_init_29_6794"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_29_6784"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_29_6794"].apply(null, arguments);
 });
-var ___cxx_global_var_init_2_10941 = Module["___cxx_global_var_init_2_10941"] = (function() {
+var ___cxx_global_var_init_2_10946 = Module["___cxx_global_var_init_2_10946"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_2_10941"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_2_10946"].apply(null, arguments);
 });
-var ___cxx_global_var_init_30_3902 = Module["___cxx_global_var_init_30_3902"] = (function() {
+var ___cxx_global_var_init_30_3905 = Module["___cxx_global_var_init_30_3905"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_30_3902"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_30_3905"].apply(null, arguments);
 });
-var ___cxx_global_var_init_30_9101 = Module["___cxx_global_var_init_30_9101"] = (function() {
+var ___cxx_global_var_init_30_9104 = Module["___cxx_global_var_init_30_9104"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_30_9101"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_30_9104"].apply(null, arguments);
 });
 var ___cxx_global_var_init_31 = Module["___cxx_global_var_init_31"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_31"].apply(null, arguments);
 });
-var ___cxx_global_var_init_31_3903 = Module["___cxx_global_var_init_31_3903"] = (function() {
+var ___cxx_global_var_init_31_3906 = Module["___cxx_global_var_init_31_3906"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_31_3903"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_31_3906"].apply(null, arguments);
 });
-var ___cxx_global_var_init_32_9102 = Module["___cxx_global_var_init_32_9102"] = (function() {
+var ___cxx_global_var_init_32_9105 = Module["___cxx_global_var_init_32_9105"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_32_9102"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_32_9105"].apply(null, arguments);
 });
 var ___cxx_global_var_init_33 = Module["___cxx_global_var_init_33"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_33"].apply(null, arguments);
 });
-var ___cxx_global_var_init_33_9914 = Module["___cxx_global_var_init_33_9914"] = (function() {
+var ___cxx_global_var_init_33_9917 = Module["___cxx_global_var_init_33_9917"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_33_9914"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_33_9917"].apply(null, arguments);
 });
-var ___cxx_global_var_init_34_9103 = Module["___cxx_global_var_init_34_9103"] = (function() {
+var ___cxx_global_var_init_34_9106 = Module["___cxx_global_var_init_34_9106"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_34_9103"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_34_9106"].apply(null, arguments);
 });
 var ___cxx_global_var_init_35 = Module["___cxx_global_var_init_35"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_35"].apply(null, arguments);
 });
-var ___cxx_global_var_init_35_7267 = Module["___cxx_global_var_init_35_7267"] = (function() {
+var ___cxx_global_var_init_35_7276 = Module["___cxx_global_var_init_35_7276"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_35_7267"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_35_7276"].apply(null, arguments);
 });
 var ___cxx_global_var_init_36 = Module["___cxx_global_var_init_36"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_36"].apply(null, arguments);
 });
-var ___cxx_global_var_init_36_12710 = Module["___cxx_global_var_init_36_12710"] = (function() {
+var ___cxx_global_var_init_36_12715 = Module["___cxx_global_var_init_36_12715"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_36_12710"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_36_12715"].apply(null, arguments);
 });
 var ___cxx_global_var_init_37 = Module["___cxx_global_var_init_37"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_37"].apply(null, arguments);
 });
-var ___cxx_global_var_init_37_12711 = Module["___cxx_global_var_init_37_12711"] = (function() {
+var ___cxx_global_var_init_37_12716 = Module["___cxx_global_var_init_37_12716"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_37_12711"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_37_12716"].apply(null, arguments);
 });
 var ___cxx_global_var_init_38 = Module["___cxx_global_var_init_38"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_38"].apply(null, arguments);
 });
-var ___cxx_global_var_init_3811 = Module["___cxx_global_var_init_3811"] = (function() {
+var ___cxx_global_var_init_3814 = Module["___cxx_global_var_init_3814"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_3811"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_3814"].apply(null, arguments);
 });
-var ___cxx_global_var_init_38_12712 = Module["___cxx_global_var_init_38_12712"] = (function() {
+var ___cxx_global_var_init_38_12717 = Module["___cxx_global_var_init_38_12717"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_38_12712"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_38_12717"].apply(null, arguments);
 });
 var ___cxx_global_var_init_39 = Module["___cxx_global_var_init_39"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_39"].apply(null, arguments);
 });
-var ___cxx_global_var_init_39_7754 = Module["___cxx_global_var_init_39_7754"] = (function() {
+var ___cxx_global_var_init_39_7764 = Module["___cxx_global_var_init_39_7764"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_39_7754"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_39_7764"].apply(null, arguments);
 });
-var ___cxx_global_var_init_3_4127 = Module["___cxx_global_var_init_3_4127"] = (function() {
+var ___cxx_global_var_init_3_4130 = Module["___cxx_global_var_init_3_4130"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_3_4127"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_3_4130"].apply(null, arguments);
 });
 var ___cxx_global_var_init_40 = Module["___cxx_global_var_init_40"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_40"].apply(null, arguments);
 });
-var ___cxx_global_var_init_40_13403 = Module["___cxx_global_var_init_40_13403"] = (function() {
+var ___cxx_global_var_init_40_13408 = Module["___cxx_global_var_init_40_13408"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_40_13403"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_40_13408"].apply(null, arguments);
 });
-var ___cxx_global_var_init_40_7755 = Module["___cxx_global_var_init_40_7755"] = (function() {
+var ___cxx_global_var_init_40_7765 = Module["___cxx_global_var_init_40_7765"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_40_7755"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_40_7765"].apply(null, arguments);
 });
-var ___cxx_global_var_init_40_9126 = Module["___cxx_global_var_init_40_9126"] = (function() {
+var ___cxx_global_var_init_40_9135 = Module["___cxx_global_var_init_40_9135"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_40_9126"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_40_9135"].apply(null, arguments);
 });
 var ___cxx_global_var_init_41 = Module["___cxx_global_var_init_41"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_41"].apply(null, arguments);
 });
-var ___cxx_global_var_init_41_7756 = Module["___cxx_global_var_init_41_7756"] = (function() {
+var ___cxx_global_var_init_41_7766 = Module["___cxx_global_var_init_41_7766"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_41_7756"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_41_7766"].apply(null, arguments);
 });
-var ___cxx_global_var_init_41_9127 = Module["___cxx_global_var_init_41_9127"] = (function() {
+var ___cxx_global_var_init_41_9136 = Module["___cxx_global_var_init_41_9136"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_41_9127"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_41_9136"].apply(null, arguments);
 });
 var ___cxx_global_var_init_42 = Module["___cxx_global_var_init_42"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_42"].apply(null, arguments);
 });
-var ___cxx_global_var_init_42_7757 = Module["___cxx_global_var_init_42_7757"] = (function() {
+var ___cxx_global_var_init_42_7767 = Module["___cxx_global_var_init_42_7767"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_42_7757"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_42_7767"].apply(null, arguments);
 });
-var ___cxx_global_var_init_42_9128 = Module["___cxx_global_var_init_42_9128"] = (function() {
+var ___cxx_global_var_init_42_9137 = Module["___cxx_global_var_init_42_9137"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_42_9128"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_42_9137"].apply(null, arguments);
 });
 var ___cxx_global_var_init_43 = Module["___cxx_global_var_init_43"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_43"].apply(null, arguments);
 });
-var ___cxx_global_var_init_43_7758 = Module["___cxx_global_var_init_43_7758"] = (function() {
+var ___cxx_global_var_init_43_7768 = Module["___cxx_global_var_init_43_7768"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_43_7758"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_43_7768"].apply(null, arguments);
 });
-var ___cxx_global_var_init_43_9129 = Module["___cxx_global_var_init_43_9129"] = (function() {
+var ___cxx_global_var_init_43_9138 = Module["___cxx_global_var_init_43_9138"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_43_9129"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_43_9138"].apply(null, arguments);
 });
 var ___cxx_global_var_init_44 = Module["___cxx_global_var_init_44"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_44"].apply(null, arguments);
 });
-var ___cxx_global_var_init_44_4467 = Module["___cxx_global_var_init_44_4467"] = (function() {
+var ___cxx_global_var_init_44_4472 = Module["___cxx_global_var_init_44_4472"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_44_4467"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_44_4472"].apply(null, arguments);
 });
-var ___cxx_global_var_init_44_7452 = Module["___cxx_global_var_init_44_7452"] = (function() {
+var ___cxx_global_var_init_44_7461 = Module["___cxx_global_var_init_44_7461"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_44_7452"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_44_7461"].apply(null, arguments);
 });
-var ___cxx_global_var_init_44_7759 = Module["___cxx_global_var_init_44_7759"] = (function() {
+var ___cxx_global_var_init_44_7769 = Module["___cxx_global_var_init_44_7769"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_44_7759"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_44_7769"].apply(null, arguments);
 });
-var ___cxx_global_var_init_44_9130 = Module["___cxx_global_var_init_44_9130"] = (function() {
+var ___cxx_global_var_init_44_9139 = Module["___cxx_global_var_init_44_9139"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_44_9130"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_44_9139"].apply(null, arguments);
 });
 var ___cxx_global_var_init_45 = Module["___cxx_global_var_init_45"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_45"].apply(null, arguments);
 });
-var ___cxx_global_var_init_45_4468 = Module["___cxx_global_var_init_45_4468"] = (function() {
+var ___cxx_global_var_init_45_4473 = Module["___cxx_global_var_init_45_4473"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_45_4468"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_45_4473"].apply(null, arguments);
 });
-var ___cxx_global_var_init_45_7760 = Module["___cxx_global_var_init_45_7760"] = (function() {
+var ___cxx_global_var_init_45_7770 = Module["___cxx_global_var_init_45_7770"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_45_7760"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_45_7770"].apply(null, arguments);
 });
 var ___cxx_global_var_init_46 = Module["___cxx_global_var_init_46"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_46"].apply(null, arguments);
 });
-var ___cxx_global_var_init_46_4469 = Module["___cxx_global_var_init_46_4469"] = (function() {
+var ___cxx_global_var_init_46_4474 = Module["___cxx_global_var_init_46_4474"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_46_4469"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_46_4474"].apply(null, arguments);
 });
 var ___cxx_global_var_init_47 = Module["___cxx_global_var_init_47"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23786,10 +24198,10 @@ var ___cxx_global_var_init_4_669 = Module["___cxx_global_var_init_4_669"] = (fun
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_4_669"].apply(null, arguments);
 });
-var ___cxx_global_var_init_4_6690 = Module["___cxx_global_var_init_4_6690"] = (function() {
+var ___cxx_global_var_init_4_6698 = Module["___cxx_global_var_init_4_6698"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_4_6690"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_4_6698"].apply(null, arguments);
 });
 var ___cxx_global_var_init_5 = Module["___cxx_global_var_init_5"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23841,20 +24253,20 @@ var ___cxx_global_var_init_69 = Module["___cxx_global_var_init_69"] = (function(
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_69"].apply(null, arguments);
 });
-var ___cxx_global_var_init_6_4214 = Module["___cxx_global_var_init_6_4214"] = (function() {
+var ___cxx_global_var_init_6_4218 = Module["___cxx_global_var_init_6_4218"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_6_4214"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_6_4218"].apply(null, arguments);
 });
 var ___cxx_global_var_init_7 = Module["___cxx_global_var_init_7"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_7"].apply(null, arguments);
 });
-var ___cxx_global_var_init_7266 = Module["___cxx_global_var_init_7266"] = (function() {
+var ___cxx_global_var_init_7275 = Module["___cxx_global_var_init_7275"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_7266"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_7275"].apply(null, arguments);
 });
 var ___cxx_global_var_init_73 = Module["___cxx_global_var_init_73"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23866,10 +24278,10 @@ var ___cxx_global_var_init_75 = Module["___cxx_global_var_init_75"] = (function(
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_75"].apply(null, arguments);
 });
-var ___cxx_global_var_init_75_8769 = Module["___cxx_global_var_init_75_8769"] = (function() {
+var ___cxx_global_var_init_75_8780 = Module["___cxx_global_var_init_75_8780"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_75_8769"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_75_8780"].apply(null, arguments);
 });
 var ___cxx_global_var_init_77 = Module["___cxx_global_var_init_77"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23881,10 +24293,10 @@ var ___cxx_global_var_init_77_1159 = Module["___cxx_global_var_init_77_1159"] = 
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_77_1159"].apply(null, arguments);
 });
-var ___cxx_global_var_init_77_5865 = Module["___cxx_global_var_init_77_5865"] = (function() {
+var ___cxx_global_var_init_77_5871 = Module["___cxx_global_var_init_77_5871"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_77_5865"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_77_5871"].apply(null, arguments);
 });
 var ___cxx_global_var_init_78 = Module["___cxx_global_var_init_78"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -23896,50 +24308,50 @@ var ___cxx_global_var_init_79 = Module["___cxx_global_var_init_79"] = (function(
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_79"].apply(null, arguments);
 });
-var ___cxx_global_var_init_7988 = Module["___cxx_global_var_init_7988"] = (function() {
+var ___cxx_global_var_init_7_4219 = Module["___cxx_global_var_init_7_4219"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_7988"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_7_4219"].apply(null, arguments);
 });
-var ___cxx_global_var_init_7_4215 = Module["___cxx_global_var_init_7_4215"] = (function() {
+var ___cxx_global_var_init_7_6635 = Module["___cxx_global_var_init_7_6635"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_7_4215"].apply(null, arguments);
-});
-var ___cxx_global_var_init_7_6628 = Module["___cxx_global_var_init_7_6628"] = (function() {
- assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
- assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_7_6628"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_7_6635"].apply(null, arguments);
 });
 var ___cxx_global_var_init_80 = Module["___cxx_global_var_init_80"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_80"].apply(null, arguments);
 });
+var ___cxx_global_var_init_8000 = Module["___cxx_global_var_init_8000"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["___cxx_global_var_init_8000"].apply(null, arguments);
+});
 var ___cxx_global_var_init_81 = Module["___cxx_global_var_init_81"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_81"].apply(null, arguments);
 });
-var ___cxx_global_var_init_81_5866 = Module["___cxx_global_var_init_81_5866"] = (function() {
+var ___cxx_global_var_init_81_5872 = Module["___cxx_global_var_init_81_5872"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_81_5866"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_81_5872"].apply(null, arguments);
 });
 var ___cxx_global_var_init_87 = Module["___cxx_global_var_init_87"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["___cxx_global_var_init_87"].apply(null, arguments);
 });
-var ___cxx_global_var_init_8941 = Module["___cxx_global_var_init_8941"] = (function() {
+var ___cxx_global_var_init_8952 = Module["___cxx_global_var_init_8952"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_8941"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_8952"].apply(null, arguments);
 });
-var ___cxx_global_var_init_8_4216 = Module["___cxx_global_var_init_8_4216"] = (function() {
+var ___cxx_global_var_init_8_4220 = Module["___cxx_global_var_init_8_4220"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
- return Module["asm"]["___cxx_global_var_init_8_4216"].apply(null, arguments);
+ return Module["asm"]["___cxx_global_var_init_8_4220"].apply(null, arguments);
 });
 var ___cxx_global_var_init_9 = Module["___cxx_global_var_init_9"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -24015,6 +24427,11 @@ var _llvm_bswap_i32 = Module["_llvm_bswap_i32"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["_llvm_bswap_i32"].apply(null, arguments);
+});
+var _llvm_ctlz_i64 = Module["_llvm_ctlz_i64"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["_llvm_ctlz_i64"].apply(null, arguments);
 });
 var _llvm_ctpop_i32 = Module["_llvm_ctpop_i32"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -24306,6 +24723,16 @@ var dynCall_fiiii = Module["dynCall_fiiii"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_fiiii"].apply(null, arguments);
 });
+var dynCall_fiiiii = Module["dynCall_fiiiii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_fiiiii"].apply(null, arguments);
+});
+var dynCall_fiiiiii = Module["dynCall_fiiiiii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_fiiiiii"].apply(null, arguments);
+});
 var dynCall_fiiiiiifiifif = Module["dynCall_fiiiiiifiifif"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
@@ -24401,6 +24828,16 @@ var dynCall_iifii = Module["dynCall_iifii"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_iifii"].apply(null, arguments);
 });
+var dynCall_iifiifi = Module["dynCall_iifiifi"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_iifiifi"].apply(null, arguments);
+});
+var dynCall_iifiifiii = Module["dynCall_iifiifiii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_iifiifiii"].apply(null, arguments);
+});
 var dynCall_iifiii = Module["dynCall_iifiii"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
@@ -24421,10 +24858,25 @@ var dynCall_iiifi = Module["dynCall_iiifi"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_iiifi"].apply(null, arguments);
 });
+var dynCall_iiififiii = Module["dynCall_iiififiii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_iiififiii"].apply(null, arguments);
+});
+var dynCall_iiififiiii = Module["dynCall_iiififiiii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_iiififiiii"].apply(null, arguments);
+});
 var dynCall_iiifii = Module["dynCall_iiifii"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_iiifii"].apply(null, arguments);
+});
+var dynCall_iiifiifiii = Module["dynCall_iiifiifiii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_iiifiifiii"].apply(null, arguments);
 });
 var dynCall_iiifiii = Module["dynCall_iiifiii"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -24616,10 +25068,20 @@ var dynCall_iiijiii = Module["dynCall_iiijiii"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_iiijiii"].apply(null, arguments);
 });
+var dynCall_iiijji = Module["dynCall_iiijji"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_iiijji"].apply(null, arguments);
+});
 var dynCall_iiijjii = Module["dynCall_iiijjii"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_iiijjii"].apply(null, arguments);
+});
+var dynCall_iiijjiiii = Module["dynCall_iiijjiiii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_iiijjiiii"].apply(null, arguments);
 });
 var dynCall_iij = Module["dynCall_iij"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -24660,6 +25122,11 @@ var dynCall_iijjji = Module["dynCall_iijjji"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_iijjji"].apply(null, arguments);
+});
+var dynCall_ij = Module["dynCall_ij"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_ij"].apply(null, arguments);
 });
 var dynCall_iji = Module["dynCall_iji"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -24836,6 +25303,11 @@ var dynCall_vidi = Module["dynCall_vidi"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_vidi"].apply(null, arguments);
 });
+var dynCall_vidiii = Module["dynCall_vidiii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_vidiii"].apply(null, arguments);
+});
 var dynCall_vif = Module["dynCall_vif"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
@@ -24855,6 +25327,11 @@ var dynCall_viffff = Module["dynCall_viffff"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_viffff"].apply(null, arguments);
+});
+var dynCall_vifffffi = Module["dynCall_vifffffi"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_vifffffi"].apply(null, arguments);
 });
 var dynCall_viffffi = Module["dynCall_viffffi"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -25071,6 +25548,11 @@ var dynCall_viiiif = Module["dynCall_viiiif"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_viiiif"].apply(null, arguments);
 });
+var dynCall_viiiiffffii = Module["dynCall_viiiiffffii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_viiiiffffii"].apply(null, arguments);
+});
 var dynCall_viiiifffi = Module["dynCall_viiiifffi"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
@@ -25085,6 +25567,11 @@ var dynCall_viiiifii = Module["dynCall_viiiifii"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_viiiifii"].apply(null, arguments);
+});
+var dynCall_viiiifiii = Module["dynCall_viiiifiii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_viiiifiii"].apply(null, arguments);
 });
 var dynCall_viiiifiiiiif = Module["dynCall_viiiifiiiiif"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
@@ -25251,6 +25738,11 @@ var dynCall_viijji = Module["dynCall_viijji"] = (function() {
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_viijji"].apply(null, arguments);
 });
+var dynCall_viijjii = Module["dynCall_viijjii"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_viijjii"].apply(null, arguments);
+});
 var dynCall_viijjiii = Module["dynCall_viijjiii"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
@@ -25300,6 +25792,11 @@ var dynCall_vijjii = Module["dynCall_vijjii"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
  assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
  return Module["asm"]["dynCall_vijjii"].apply(null, arguments);
+});
+var dynCall_vijjji = Module["dynCall_vijjji"] = (function() {
+ assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
+ assert(!runtimeExited, "the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)");
+ return Module["asm"]["dynCall_vijjji"].apply(null, arguments);
 });
 var dynCall_vjiiii = Module["dynCall_vjiiii"] = (function() {
  assert(runtimeInitialized, "you need to wait for the runtime to be ready (e.g. wait for main() to be called)");
