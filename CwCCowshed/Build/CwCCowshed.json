@@ -1,7 +1,7 @@
 {
 "companyName": "Jim Urbas",
 "productName": "Retreat from Cowshed",
-"productVersion": "0.0.1a",
+"productVersion": "0.0.1b",
 "dataUrl": "CwCCowshed.data.unityweb",
 "wasmCodeUrl": "CwCCowshed.wasm.code.unityweb",
 "wasmFrameworkUrl": "CwCCowshed.wasm.framework.unityweb",
