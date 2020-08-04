@@ -1,7 +1,7 @@
 {
-"companyName": "DefaultCompany",
+"companyName": "JimU",
 "productName": "WebGL Browser Tests",
-"productVersion": "0.1",
+"productVersion": "0.1a",
 "dataUrl": "WebGLBrowserTests.data.unityweb",
 "wasmCodeUrl": "WebGLBrowserTests.wasm.code.unityweb",
 "wasmFrameworkUrl": "WebGLBrowserTests.wasm.framework.unityweb",
