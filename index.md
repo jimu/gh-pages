@@ -9,5 +9,5 @@
 ### Personal Project
 [![TicTacToe](/images/tictactoe_splash_572x256.png)](https://connect.unity.com/p/tic-tac-toe-7)
 ### Cellwar
-[![Cellwar](/images/cellwar_splash_572x256.jpg)](Cellwar/index.html)
+[![Cellwar](/images/cellwar_splash_572x256.png)](Cellwar/index.html)
 Unfinished real-time strategy game for Create with Code
