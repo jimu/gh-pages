@@ -6,3 +6,8 @@
 [![Unit 2](/images/af1_splash_572x256.jpg)](CwCAnimalFarm/index.html)
 ### Unit 3
 [![Unit 3](/images/af2_splash_572x256.jpg)](CwCCowshed/index.html)
+### Personal Project
+[![TicTacToe](/images/tictactoe_splash_572x256.png)](https://connect.unity.com/p/tic-tac-toe-7)
+### Cellwar
+[![Final](/images/cellwar_splash_572x256.jpg)](CwCCowshed/index.html)
+Unfinished real-time strategy game for Create with Code
