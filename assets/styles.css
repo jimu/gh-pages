@@ -1,0 +1,51 @@
+body {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 11;
+  background: #eee;
+}
+div.hidden {overflow:hidden;}
+div.publisher {
+  font-size: 11pt;
+  text-align: center;
+}
+div.container {
+  width:260px;
+  height:260px;
+  float:left;
+  border:1px solid grey;
+  background: white;
+  margin:15px;
+  padding:5px;
+  text-align: center;
+}
+div.stars { float:left; margin-left:12px; }
+div.size  { float:right; margin-right:12px; }
+span.category { font-weight: normal; font-size: 11pt; }
+span.whitestar { color:#ccc; }
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  display: inline;
+  float: none;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+img {
+  padding-top: 10px;
+  width:240;
+}
+ax {
+  color: black;
+  text-decoration: none;
+}
+
+a{
+ color: #bbb;           
+}
+a span{
+  font-weight: bold;
+  color: black;           
+}
+
