@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "scream2020b",
+"productVersion": "0.1",
+"dataUrl": "scream2000ju1.data.unityweb",
+"wasmCodeUrl": "scream2000ju1.wasm.code.unityweb",
+"wasmFrameworkUrl": "scream2000ju1.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.12f1"
+}
