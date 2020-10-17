@@ -1,0 +1,16 @@
+{
+"companyName": "Drop Bear Team",
+"productName": "scream2020ju5",
+"productVersion": "0.1.ju5",
+"dataUrl": "scream2020ju5.data.unityweb",
+"wasmCodeUrl": "scream2020ju5.wasm.code.unityweb",
+"wasmFrameworkUrl": "scream2020ju5.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.12f1"
+}
