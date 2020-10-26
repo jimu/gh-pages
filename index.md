@@ -1,7 +1,7 @@
 # Create with Code Projects
 
-### [CwC Game Jam](cwcsecret/index.html)
-[![CwCJam](/images/cwcjam_splash_572x256.png)](cwcsecret/index.html)<br>
+### [CwC Game Jam](cwcsecrets/index.html)
+[![CwCJam](/images/cwcjam_splash_572x256.png)](cwcsecrets/index.html)<br>
 Team submission for the Create with Code Game Jam
 ### [Unit 1](CwCTruck_0_1_5/index.html)
 [![Unit 1](/images/unit1_splash_572x256.jpg)](CwCTruck_0_1_5/index.html)
