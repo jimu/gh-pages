@@ -1,5 +1,5 @@
 *~
-*.swp
+*.sw[po]
 BestHTTP2
 WebGLBrowserTests/WebGLBrowserTests.zip
 *.zip
