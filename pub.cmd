@@ -1,2 +1,2 @@
 set proj=cwcsecrets
-robocopy %proj% k:\sj4\%proj% /s
+robocopy %proj% k:\sj4 /s
