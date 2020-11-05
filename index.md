@@ -17,3 +17,11 @@ Team submission for the Create with Code Game Jam
 ### [Cellwar](Cellwar/index.html)
 [![Cellwar](/images/cellwar_splash_572x256.png)](Cellwar/index.html)<br>
 Real-time Strategy Prototype for Create with Code
+
+# Other Unity Projects
+### [ScreamJam 2020](https://itch.io/jam/scream-jam-2020/rate/797335)<br>
+I was the dev working with a graphic artist and musician [screenshots](https://github.com/jimu/scream2020)
+
+### [Pumpkin Spider Crosses the Road](https://pumpkinspider.tripleplusungood.com/)<br>
+Simple Google Play Store App with custom domain project page
+
