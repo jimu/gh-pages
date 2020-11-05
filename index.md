@@ -21,10 +21,10 @@ Real-time Strategy Prototype for Create with Code
 # Other Unity Projects
 
 ### [ScreamJam 2020 - Drop Bear Panic](https://itch.io/jam/scream-jam-2020/rate/797335)<br>
-[![ScreamJam 2020 - Drop Bear Panic](/images/ps_splash_572x256.png)<br>
+[![ScreamJam 2020 - Drop Bear Panic]](/images/dropbear_splash_572x256.png)<br>
 3 man team: Dev (me), artist and musician<br>[screenshots](https://github.com/jimu/scream2020)
 
 ### [Pumpkin Spider Crosses the Road](https://pumpkinspider.tripleplusungood.com/)
-[![Pumpkin Spider](/images/ps_splash_572x256.png)<br>
+[![Pumpkin Spider]](/images/pumpkinspider_splash_572x256.png)<br>
 Simple Google Play Store App with product website
 
