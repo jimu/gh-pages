@@ -19,9 +19,12 @@ Team submission for the Create with Code Game Jam
 Real-time Strategy Prototype for Create with Code
 
 # Other Unity Projects
-### [ScreamJam 2020](https://itch.io/jam/scream-jam-2020/rate/797335)<br>
-I was the dev working with a graphic artist and musician [screenshots](https://github.com/jimu/scream2020)
 
-### [Pumpkin Spider Crosses the Road](https://pumpkinspider.tripleplusungood.com/)<br>
-Simple Google Play Store App with custom domain project page
+### [ScreamJam 2020 - Drop Bear Panic](https://itch.io/jam/scream-jam-2020/rate/797335)<br>
+[![ScreamJam 2020 - Drop Bear Panic](/images/ps_splash_572x256.png)<br>
+3 man team: Dev (me), artist and musician<br>[screenshots](https://github.com/jimu/scream2020)
+
+### [Pumpkin Spider Crosses the Road](https://pumpkinspider.tripleplusungood.com/)
+[![Pumpkin Spider](/images/ps_splash_572x256.png)<br>
+Simple Google Play Store App with product website
 
