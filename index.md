@@ -21,8 +21,7 @@ Real-time Strategy Prototype for Create with Code
 # Other Unity Projects
 
 ### [ScreamJam 2020 - Drop Bear Panic](https://itch.io/jam/scream-jam-2020/rate/797335)<br>
-[![]]()<br>
-[![ScreamJam 2020 - Drop Bear Panic](/images/dropbear_splash_572x256.png)](https://itch.io/jam/scream-jam-2020/rate/797335)
+[![ScreamJam 2020 - Drop Bear Panic](/images/dropbear_splash_572x256.png)](https://itch.io/jam/scream-jam-2020/rate/797335)<br>
 3 man team: Dev (me), artist and musician<br>
 [[screenshots](https://github.com/jimu/scream2020)]
 
