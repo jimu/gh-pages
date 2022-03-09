@@ -9,3 +9,6 @@ Manu   | Product    | Year | Size
 Elegoo | Mars 2 Pro | -    | 2k
 
 [r/resinprinting](https://www.reddit.com/r/resinprinting)
+
+# Version
+0.0.1
