@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="utf-8" />
+	<title>Witch Hazel</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght&#64;400;500&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--section-gap: 1px;
+			--header-font-size: 80%;
+			--padding-standard: 0px 4px;
+			--padding-header: 1px 8px;
+			--standard-border: 1px solid rgb(var(--color-header));
+
+			--font-page-primary-fields: 500 var(--font-size-14) 'Roboto', sans-serif;
+			--font-page-secondary-fields: 400 var(--font-size-12) 'Roboto', sans-serif;
+			--font-page-primary-labels: 400 var(--font-size-14) 'Roboto', sans-serif;
+			--font-page-secondary-lables: 400 var(--font-size-12) 'Roboto', sans-serif;
+			--font-page-primary-footer: 500 var(--font-size-12) 'Roboto', sans-serif;
+			--font-page-secondary-footer: 400 var(--font-size-11) 'Roboto', sans-serif;
+
+			--font-size-14: 0.875rem;
+			--font-size-12: 0.75rem;
+			--font-size-11: 0.6375rem;
+
+			--color-background: 238, 238, 238;
+			--color-on-background: 0, 0, 0;
+			--color-content: 255, 255, 255;
+			--color-on-content: 0, 0, 0;
+			--color-banding: 235, 235, 220;
+			--color-on-banding: 0, 0, 0;
+			--color-header: 43, 43, 43;
+			--color-on-header: 255, 255, 255;
+			--color-focused-tab: 224, 212, 175;
+			--color-on-focused-tab: 0, 0, 0;
+			--color-current-tab: 211, 207, 197;
+			--color-on-current-tab: 0, 0, 0;
+			--color-editable: 255, 255, 255;
+			--color-on-editable: 0, 0, 160;
+			--color-editable-border: 192, 192, 192;
+			--color-focused-editable-border: 0, 0, 192;
+			--color-selection: 0, 96, 160;
+			--color-on-selection: 255, 255, 255;
+			--color-inactive-selection: 0, 64, 128;
+			--color-on-inactive-selection: 228, 228, 228;
+			--color-inactive-selection: 0, 64, 128;
+			--color-on-inactive-selection: 0, 0, 0;
+			--color-scroll: 192, 192, 192, 0.5;
+			--color-scroll-rollover: 192, 192, 192;
+			--color-scroll-edge: 128, 128, 128;
+			--color-accent: 0, 102, 102;
+			--color-control: 248, 248, 255;
+			--color-on-control: 0, 0, 0;
+			--color-pressed-control: 0, 96, 160;
+			--color-on-pressed-control: 255, 255, 255;
+			--color-control-edge: 96, 96, 96;
+			--color-divider: 192, 192, 192;
+			--color-icon-button: 96, 96, 96;
+			--color-icon-button-rollover: 0, 0, 0;
+			--color-pressed-icon-button: 0, 96, 160;
+			--color-drop-area: 204, 0, 51;
+			--color-toolip: 252, 252, 196;
+			--color-on-tooltip: 0, 0, 0;
+			--color-search-list: 224, 255, 255;
+			--color-on-search-list: 0, 0, 0;
+			--color-marker: 252, 242, 196;
+			--color-on-marker: 0, 0, 0;
+			--color-error: 192, 64, 64;
+			--color-on-error: 255, 255, 255;
+			--color-warning: 224, 128, 0;
+			--color-on-warning: 255, 255, 255;
+			--color-overloaded: 192, 64, 64;
+			--color-on-overloaded: 255, 255, 255;
+			--color-page: 255, 255, 255;
+			--color-on-page: 0, 0, 0;
+			--color-page-void: 128, 128, 128;
+			--color-hint: 128, 128, 128;
+			--color-link: 0, 255, 127;
+			--color-on-link: 0, 0, 0;
+			--color-pdf-link-highlight: 0, 255, 127;
+			--color-pdf-marker-highlight: 255, 255, 0;
+		}
+
+
+		svg {
+			width: 1em;
+			height: 1em;
+			background-color: transparent;
+		}
+
+		body {
+			background-color: rgb(var(--color-page));
+			color: rgb(var(--color-on-page));
+			width: 8.5in;
+			margin-top: 0.25in;
+			margin-left: 0.25in;
+			margin-bottom: 0.25in;
+			margin-right: 0.25in;
+		}
+
+		#sheet {
+			background-color: rgb(var(--color-page));
+			padding: var(--padding-header);
+
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: start;
+			gap: var(--section-gap);
+			min-width: 840px;
+		}
+
+		.header {
+			grid-area: header;
+			background-color: rgb(var(--color-header));
+			color: rgb(var(--color-on-header));
+			justify-content: center;
+			text-align: center;
+			padding-bottom: 2px;
+			font: var(--font-page-primary-labels);
+		}
+
+		.header:not(.entry-parent) {
+			padding: var(--padding-header);
+		}
+
+		.fieldblock {
+			display: grid;
+			grid-template-columns: 0fr 1fr;
+			align-items: end;
+			text-align: left;
+			white-space: nowrap;
+			align-self: stretch;
+			background-color: rgb(var(--color-content));
+			color: rgb(var(--color-on-content));
+		}
+
+		.fieldblock3 {
+			display: grid;
+			grid-template-columns: 0fr 0fr 1fr;
+			white-space: nowrap;
+			background-color: rgb(var(--color-content));
+			color: rgb(var(--color-on-content));
+		}
+
+		.fieldblock3>* {
+			padding: var(--padding-standard);
+		}
+
+		.fieldblock5 {
+			display: grid;
+			grid-template-columns: repeat(5, 0fr);
+			white-space: nowrap;
+			background-color: rgb(var(--color-content));
+			color: rgb(var(--color-on-content));
+		}
+
+		.fieldblock5>* {
+			padding: var(--padding-standard);
+		}
+
+		.label {
+			font: var(--font-page-primary-labels);
+			padding: var(--padding-standard);
+		}
+
+		.field {
+			font: var(--font-page-primary-fields);
+			padding: 0;
+			border: none;
+			border-bottom: 1px solid rgb(var(--color-control-edge));
+			border-radius: 0;
+			color: rgb(var(--color-on-editable));
+		}
+
+		.field.noedit {
+			background-color: rgb(var(--color-content));
+			border-bottom: none;
+		}
+
+		#sheet {
+			background-color: rgb(var(--color-page));
+			padding: var(--padding-header);
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: start;
+			gap: var(--section-gap);
+		}
+
+		#personal {
+			grid-area: personal;
+			display: grid;
+			grid-template: "portrait identity miscellaneous points""portrait description description points";
+			grid-template-rows: 0fr;
+			grid-template-columns: min-content auto auto 0fr;
+			gap: var(--section-gap);
+		}
+
+		#portrait {
+			grid-area: portrait;
+			display: grid;
+			grid-template: "header""portrait";
+			grid-template-rows: 0fr auto;
+			border: var(--standard-border);
+			height: calc(100% - 2px);
+		}
+
+		.portrait {
+			background-image: url(data:image/webp;base64,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);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			aspect-ratio: 1 / 1;
+			height: 100%;
+		}
+
+		#identity {
+			grid-area: identity;
+			display: grid;
+			grid-template: "header""block";
+			grid-template-rows: 0fr 1fr;
+			border: var(--standard-border);
+		}
+
+		#identity .label {
+			text-align: right;
+		}
+
+		#miscellaneous {
+			grid-area: miscellaneous;
+			display: grid;
+			grid-template: "header""block";
+			grid-template-rows: 0fr 1fr;
+			border: var(--standard-border);
+		}
+
+		#miscellaneous .label {
+			text-align: right;
+		}
+
+		#description {
+			grid-area: description;
+			display: grid;
+			grid-template: "header header header""block block block";
+			grid-template-columns: 1fr 1fr 1fr;
+			border: var(--standard-border);
+		}
+
+		#description .label {
+			text-align: right;
+		}
+
+		#points {
+			grid-area: points;
+			display: grid;
+			grid-template: "header""block";
+			grid-template-rows: 0fr 1fr;
+			border: var(--standard-border);
+		}
+
+		#points .field {
+			text-align: right;
+			padding: var(--padding-standard);
+		}
+
+		#points .fieldblock .field:nth-child(4n-1),
+		#points .fieldblock .label:nth-child(4n) {
+			background-color: rgb(var(--color-banding));
+		}
+
+		#stats {
+			grid-area: stats;
+			display: grid;
+			grid-template: "attributes hit-locations encumbrance-lifting";
+			gap: var(--section-gap);
+		}
+
+		#attributes {
+			grid-area: attributes;
+			display: grid;
+			grid-template: "primary-attributes secondary-attributes""basic-damage secondary-attributes""pool-attributes pool-attributes";
+			grid-template-columns: 1fr 1fr;
+			gap: var(--section-gap);
+		}
+
+		#primary-attributes {
+			grid-area: primary-attributes;
+		}
+
+		#secondary-attributes {
+			grid-area: secondary-attributes;
+		}
+
+		#pool-attributes {
+			grid-area: pool-attributes;
+		}
+
+		#basic-damage {
+			grid-area: basic-damage;
+		}
+
+		#basic-damage .fieldblock3 .points {
+			color: transparent;
+		}
+
+		#basic-damage .fieldblock3 .label:nth-child(6n),
+		#basic-damage .fieldblock3 .field:nth-child(6n-1),
+		#basic-damage .fieldblock3 .points:nth-child(6n-2) {
+			background-color: rgb(var(--color-banding));
+		}
+
+		#attributes .points {
+			font: var(--font-page-secondary-fields);
+			color: rgba(var(--color-on-editable), 0.6);
+		}
+
+		#attributes .label {
+			font: var(--font-page-primary-labels);
+			color: rgb(var(--color-on-content));
+		}
+
+		#attributes .field {
+			text-align: right;
+		}
+
+		#hit-locations {
+			grid-area: hit-locations;
+			display: grid;
+			grid-template: "title title title title title""entry-parent roll location penalty dr";
+			grid-template-columns: min-content min-content 1fr min-content min-content;
+			grid-template-rows: 0fr;
+			white-space: nowrap;
+		}
+
+		#hit-locations .header {
+			grid-area: auto;
+		}
+
+		#hit-locations .header.body-plan {
+			grid-area: title;
+		}
+
+		#hit-locations .header.location {
+			grid-column: span 2;
+		}
+
+		#hit-locations .penalty:not(.header),
+		#hit-locations .dr:not(.header) {
+			color: rgba(var(--color-on-editable), 0.6);
+			font: var(--font-page-primary-fields);
+		}
+
+		#hit-locations .penalty:not(.header) {
+			text-align: right;
+		}
+
+		#hit-locations .roll:not(.header),
+		#hit-locations .location:not(.header) {
+			color: rgb(var(--color-on-content));
+			font: var(--font-page-primary-labels);
+		}
+
+		#hit-locations .dr {
+			text-align: center;
+		}
+
+		#hit-locations .roll,
+		#hit-locations .penalty {
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#hit-locations :not(.header):not(.entry-parent) {
+			padding: var(--padding-standard);
+		}
+
+		#hit-locations .entry-parent:nth-child(10n+1):not(.header),
+		#hit-locations .roll:nth-child(10n+2):not(.header),
+		#hit-locations .location:nth-child(10n+3):not(.header),
+		#hit-locations .penalty:nth-child(10n+4):not(.header),
+		#hit-locations .dr:nth-child(10n+5):not(.header) {
+			background-color: rgb(var(--color-banding));
+		}
+
+		#encumbrance-lifting {
+			grid-area: encumbrance-lifting;
+			display: grid;
+			grid-template: "encumbrance""lifting";
+			gap: var(--section-gap);
+		}
+
+		#encumbrance {
+			grid-area: encumbrance;
+			display: grid;
+			grid-template: "title title title title title title""header1 header1 header1 header2 header3 header4""encumbrance-marker level-number level max-load move dodge";
+			grid-template-columns: min-content min-content 1fr min-content min-content min-content;
+			grid-template-rows: 0fr 0fr;
+			align-content: baseline;
+			white-space: nowrap;
+			font: var(--font-page-primary-fields);
+			background-color: rgb(var(--color-content));
+			color: rgba(var(--color-on-editable), 0.6);
+			text-align: right;
+		}
+
+		#encumbrance .encumbrance-marker {
+			color: rgb(var(--color-on-content));
+		}
+
+		#encumbrance .encumbrance-marker path {
+			display: none;
+		}
+
+		#encumbrance .encumbrance-marker.current path.current {
+			display: inline;
+		}
+
+		#encumbrance .level:not(.header) {
+			color: rgb(var(--color-on-content));
+			font: var(--font-page-primary-labels);
+			text-align: left;
+		}
+
+		#encumbrance .current {
+			background-color: rgb(var(--color-marker)) !important;
+		}
+
+		#encumbrance .current.level {
+			color: rgb(var(--color-on-marker)) !important;
+		}
+
+		#encumbrance .header {
+			grid-area: auto;
+			text-align: center;
+		}
+
+		#encumbrance .title {
+			grid-area: title;
+		}
+
+		#encumbrance .level.header {
+			grid-column: 1/span 3;
+		}
+
+		#encumbrance .level,
+		#encumbrance .max-load,
+		#encumbrance .move {
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#encumbrance> :not(.header) {
+			padding: var(--padding-standard);
+		}
+
+		#encumbrance .encumbrance-marker:nth-child(12n):not(.header),
+		#encumbrance .level-number:nth-child(12n+1):not(.header),
+		#encumbrance .level:nth-child(12n+2):not(.header),
+		#encumbrance .max-load:nth-child(12n+3):not(.header),
+		#encumbrance .move:nth-child(12n+4):not(.header),
+		#encumbrance .dodge:nth-child(12n+5):not(.header) {
+			background-color: rgb(var(--color-banding));
+		}
+
+
+		#lifting {
+			grid-area: lifting;
+			display: grid;
+			grid-template: "header header""lift label";
+			grid-template-rows: 0fr;
+		}
+
+		#lifting .lift {
+			font: var(--font-page-primary-fields);
+			color: rgba(var(--color-on-editable), 0.6);
+			text-align: right;
+		}
+
+		#lifting .label {
+			font: var(--font-page-primary-labels);
+			color: rgb(var(--color-on-content));
+		}
+
+		#lifting .lift:nth-child(4n),
+		#lifting .label:nth-child(4n+1) {
+			background-color: rgb(var(--color-banding));
+		}
+
+		#embeds {
+			display: grid;
+			grid-auto-columns: 1fr 1fr;
+			gap: var(--section-gap);
+			grid-template: "reactions conditional_modifiers"
+"melee melee"
+"ranged ranged"
+"traits skills"
+"spells spells"
+"equipment equipment"
+"other_equipment other_equipment"
+"notes notes"
+;
+		}
+
+		#melee {
+			grid-area: melee;
+			grid-template-columns: min-content 1fr repeat(7, auto);
+		}
+
+		#melee .entry-parent:nth-child(18n+1):not(.header),
+		#melee .desc:nth-child(18n+2):not(.header),
+		#melee .usage:nth-child(18n+3):not(.header),
+		#melee .level:nth-child(18n+4):not(.header),
+		#melee .parry:nth-child(18n+5):not(.header),
+		#melee .block:nth-child(18n+6):not(.header),
+		#melee .damage:nth-child(18n+7):not(.header),
+		#melee .reach:nth-child(18n+8):not(.header),
+		#melee .st:nth-child(18n+9):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#melee .desc:not(.header),
+		#melee .usage:not(.header),
+		#melee .level:not(.header),
+		#melee .parry:not(.header),
+		#melee .block:not(.header),
+		#melee .damage:not(.header),
+		#melee .reach:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#melee .st:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+		#melee :nth-last-child(-n+9) {
+			border-bottom: none !important;
+		}
+
+		#ranged {
+			grid-area: ranged;
+			grid-template-columns: min-content 1fr repeat(10, auto);
+		}
+
+		#ranged .entry-parent:nth-child(24n+1):not(.header),
+		#ranged .desc:nth-child(24n+2):not(.header),
+		#ranged .usage:nth-child(24n+3):not(.header),
+		#ranged .level:nth-child(24n+4):not(.header),
+		#ranged .acc:nth-child(24n+5):not(.header),
+		#ranged .range:nth-child(24n+6):not(.header),
+		#ranged .damage:nth-child(24n+7):not(.header),
+		#ranged .rof:nth-child(24n+8):not(.header),
+		#ranged .shots:nth-child(24n+9):not(.header),
+		#ranged .bulk:nth-child(24n+10):not(.header),
+		#ranged .recoil:nth-child(24n+11):not(.header),
+		#ranged .st:nth-child(24n+12):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#ranged .desc:not(.header),
+		#ranged .usage:not(.header),
+		#ranged .level:not(.header),
+		#ranged .acc:not(.header),
+		#ranged .range:not(.header),
+		#ranged .damage:not(.header),
+		#ranged .rof:not(.header),
+		#ranged .shots:not(.header),
+		#ranged .bulk:not(.header),
+		#ranged .recoil:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#ranged .st:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+		#ranged :nth-last-child(-n+12) {
+			border-bottom: none !important;
+		}
+
+		#reactions {
+			grid-area: reactions;
+			grid-template-columns: min-content min-content auto;
+		}
+
+		#reactions .entry-parent:nth-child(6n+1):not(.header),
+		#reactions .modifier:nth-child(6n+2):not(.header),
+		#reactions .situation:nth-child(6n+3):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#reactions .modifier:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#reactions .situation:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+		#reactions :nth-last-child(-n+3) {
+			border-bottom: none !important;
+		}
+
+		#conditional-modifiers {
+			grid-area: conditional_modifiers;
+			grid-template-columns: min-content min-content auto;
+		}
+
+		#conditional-modifiers .entry-parent:nth-child(6n+1):not(.header),
+		#conditional-modifiers .modifier:nth-child(6n+2):not(.header),
+		#conditional-modifiers .situation:nth-child(6n+3):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#conditional-modifiers .modifier:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#conditional-modifiers .situation:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+		#conditional-modifiers :nth-last-child(-n+3) {
+			border-bottom: none !important;
+		}
+
+		#traits {
+			grid-area: traits;
+			grid-template-columns: min-content 1fr repeat(2, auto);
+		}
+
+		#embeds>div>.header {
+			grid-area: auto;
+		}
+
+		#traits .entry-parent:nth-child(8n+1):not(.header),
+		#traits .desc:nth-child(8n+2):not(.header),
+		#traits .points:nth-child(8n+3):not(.header),
+		#traits .reference:nth-child(8n+4):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#traits .desc:not(.header),
+		#traits .points:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#traits .reference:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+
+		#traits :nth-last-child(-n+4) {
+			border-bottom: none !important;
+		}
+
+		#skills {
+			grid-area: skills;
+			grid-template-columns: min-content 1fr repeat(4, auto);
+		}
+
+		#skills .header {
+			grid-area: auto;
+		}
+
+		#skills .entry-parent:nth-child(12n+1):not(.header),
+		#skills .desc:nth-child(12n+2):not(.header),
+		#skills .level:nth-child(12n+3):not(.header),
+		#skills .rsl:nth-child(12n+4):not(.header),
+		#skills .points:nth-child(12n+5):not(.header),
+		#skills .reference:nth-child(12n+6):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#skills .desc:not(.header),
+		#skills .level:not(.header),
+		#skills .rsl:not(.header),
+		#skills .points:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#skills .reference:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+		#skills :nth-last-child(-n+6) {
+			border-bottom: none !important;
+		}
+
+		#spells {
+			grid-area: spells;
+			grid-template-columns: min-content 1fr repeat(5, auto);
+		}
+
+		#spells .header {
+			grid-area: auto;
+		}
+
+		#spells span[class=""] {
+			display: none;
+		}
+
+		#spells .entry-parent:nth-child(14n+1):not(.header),
+		#spells .desc:nth-child(14n+2):not(.header),
+		#spells .college:nth-child(14n+3):not(.header),
+		#spells .level:nth-child(14n+4):not(.header),
+		#spells .rsl:nth-child(14n+5):not(.header),
+		#spells .points:nth-child(14n+6):not(.header),
+		#spells .reference:nth-child(14n+7):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#spells .desc:not(.header),
+		#spells .college:not(.header),
+		#spells .level:not(.header),
+		#spells .rsl:not(.header),
+		#spells .points:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+
+		#spells .reference:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+
+		#spells :nth-last-child(-n+7) {
+			border-bottom: none !important;
+		}
+
+		#equipment {
+			grid-area: equipment;
+			grid-template-columns: min-content auto auto 1fr repeat(8, auto);
+		}
+
+		#equipment .header {
+			grid-area: auto;
+		}
+
+		#embeds #equipment>div>.equipped:not(.header) {
+			padding: var(--padding-header);
+		}
+
+		#equipment .entry-parent:nth-child(24n+1):not(.header),
+		#equipment .equipped:nth-child(24n+2):not(.header),
+		#equipment .quantity:nth-child(24n+3):not(.header),
+		#equipment .desc:nth-child(24n+4):not(.header),
+		#equipment .uses:nth-child(24n+5):not(.header),
+		#equipment .tech-level:nth-child(24n+6):not(.header),
+		#equipment .legality-class:nth-child(24n+7):not(.header),
+		#equipment .value:nth-child(24n+8):not(.header),
+		#equipment .weight:nth-child(24n+9):not(.header),
+		#equipment .extended-value:nth-child(24n+10):not(.header),
+		#equipment .extended-weight:nth-child(24n+11):not(.header),
+		#equipment .reference:nth-child(24n+12):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#equipment .equipped:not(.header),
+		#equipment .quantity:not(.header),
+		#equipment .desc:not(.header),
+		#equipment .uses:not(.header),
+		#equipment .tech-level:not(.header),
+		#equipment .legality-class:not(.header),
+		#equipment .weight:not(.header),
+		#equipment .value:not(.header),
+		#equipment .extended-weight:not(.header),
+		#equipment .extended-value:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#equipment .reference:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+		#equipment :nth-last-child(-n+11) {
+			border-bottom: none !important;
+		}
+
+		#equipment .equipped {
+			padding: var(--padding-header);
+		}
+
+		#other-equipment {
+			grid-area: other_equipment;
+			grid-template-columns: min-content auto 1fr repeat(8, auto);
+		}
+
+		#other-equipment .header {
+			grid-area: auto;
+		}
+
+		#other-equipment .entry-parent:nth-child(22n+1):not(.header),
+		#other-equipment .quantity:nth-child(22n+2):not(.header),
+		#other-equipment .desc:nth-child(22n+3):not(.header),
+		#other-equipment .uses:nth-child(22n+4):not(.header),
+		#other-equipment .tech-level:nth-child(22n+5):not(.header),
+		#other-equipment .legality-class:nth-child(22n+6):not(.header),
+		#other-equipment .value:nth-child(22n+7):not(.header),
+		#other-equipment .weight:nth-child(22n+8):not(.header),
+		#other-equipment .extended-value:nth-child(22n+9):not(.header),
+		#other-equipment .extended-weight:nth-child(22n+10):not(.header),
+		#other-equipment .reference:nth-child(22n+11):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#other-equipment .quantity:not(.header),
+		#other-equipment .desc:not(.header),
+		#other-equipment .uses:not(.header),
+		#other-equipment .tech-level:not(.header),
+		#other-equipment .legality-class:not(.header),
+		#other-equipment .weight:not(.header),
+		#other-equipment .value:not(.header),
+		#other-equipment .extended-weight:not(.header),
+		#other-equipment .extended-value:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#other-equipment .reference:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+		#other-equipment :nth-last-child(-n+10) {
+			border-bottom: none !important;
+		}
+
+		#notes {
+			grid-area: notes;
+			grid-template-columns: min-content 1fr auto;
+		}
+
+		#notes .header {
+			grid-area: auto;
+		}
+
+		#notes .entry-parent:nth-child(8n+1):not(.header),
+		#notes .desc:nth-child(8n+2):not(.header),
+		#notes .reference:nth-child(8n+3):not(.header) {
+			background-color: rgb(var(--color-banding));
+			color: rgb(var(--color-on-banding));
+		}
+
+		#notes .desc:not(.header),
+		#notes .reference:not(.header) {
+			border-bottom: 1px solid rgb(var(--color-header));
+		}
+
+		#notes .desc:not(.header) {
+			border-right: 1px solid rgb(var(--color-header));
+		}
+
+		#notes :nth-last-child(-n+3) {
+			border-bottom: none !important;
+		}
+
+		#embeds>div {
+			display: grid;
+			grid-template-rows: repeat(1000, auto) 1fr;
+		}
+
+		#embeds>div>.desc .item-notes {
+			grid-area: notes;
+		}
+
+		#embeds>div> :not(.header):not(.entry-parent).quantity {
+			min-width: 1em;
+		}
+
+		#embeds>div> :not(.header):not(.entry-parent).drop-over {
+			border-top: 2px dashed rgb(var(--color-drop-area));
+		}
+
+		#embeds .desc.header {
+			white-space: nowrap;
+		}
+
+		#embeds .equipped,
+		#embeds .header.reference,
+		#embeds .header.weight,
+		#embeds .header.value,
+		#embeds .header.extended-weight,
+		#embeds .header.extended-value {
+			display: grid;
+			align-items: center;
+			grid-auto-flow: column;
+			gap: 1px;
+		}
+
+		#embeds .points:not(.header),
+		#embeds .level:not(.header),
+		#embeds .quantity:not(.header),
+		#embeds .uses:not(.header),
+		#embeds .tech-level:not(.header),
+		#embeds .legality-class:not(.header),
+		#embeds .weight:not(.header),
+		#embeds .value:not(.header),
+		#embeds .extended-weight:not(.header),
+		#embeds .extended-value:not(.header) {
+			text-align: right;
+		}
+
+		#embeds>div>.header:not(.entry-parent) {
+			padding: var(--padding-header);
+		}
+
+		#embeds>div> :not(.header):not(svg) {
+			background-color: rgb(var(--color-content));
+			color: rgb(var(--color-on-content));
+			font: var(--font-page-primary-fields);
+		}
+
+		#embeds>div> :not(.header):not(.entry-parent):not(.equipped) {
+			padding: var(--padding-standard);
+		}
+
+		#embeds .item-notes {
+			font: var(--font-page-secondary-fields);
+			background-color: transparent;
+		}
+
+		div {
+			background-color: rgb(var(--color-content));
+		}
+
+		#sheet>div {
+			background-color: rgb(var(--color-page));
+		}
+
+		#personal>div:not(#attributes),
+		#attributes>div,
+		#stats>div:not(#attributes),
+		#attributes>div,
+		#embeds>div:not(#attributes),
+		#attributes>div {
+			border: var(--standard-border);
+		}
+
+		#footer {
+			font: var(--font-page-secondary-footer);
+			background-color: rgb(var(--color-page));
+			color: rgb(var(--color-on-page));
+			text-align: left;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		#footer div {
+			background-color: inherit;
+		}
+
+		#footer .center {
+			text-align: center;
+		}
+
+		#footer .center a {
+			color: inherit;
+			text-decoration: inherit;
+		}
+
+		#footer .primary {
+			font: var(--font-page-primary-footer);
+		}
+
+		#footer .right {
+			text-align: right;
+		}
+	</style>
+</head>
+
+<body>
+<div id="sheet">
+	<div id="personal">
+		<div id="portrait">
+			<div class="header">Portrait</div>
+			<div class="portrait"></div>
+		</div>
+		<div id="identity">
+			<div class="header">Identity</div>
+			<div class="fieldblock">
+				<div class="label">Name</div>
+				<div class="field">Witch Hazel</div>
+				<div class="label">Title</div>
+				<div class="field"></div>
+				<div class="label">Organization</div>
+				<div class="field"></div>
+			</div>
+		</div>
+		<div id="miscellaneous">
+			<div class="header">Miscellaneous</div>
+			<div class="fieldblock">
+				<div class="label">Created</div>
+				<div class="field">Nov  4, 2024, 5:35 PM</div>
+				<div class="label">Modified</div>
+				<div class="field">Nov  4, 2024, 7:56 PM</div>
+				<div class="label">Player</div>
+				<div class="field">jimu</div>
+			</div>
+		</div>
+		<div id="description">
+			<div class="header">Description</div>
+			<div class="fieldblock">
+				<div class="label">Gender</div>
+				<div class="field">Female</div>
+				<div class="label">Age</div>
+				<div class="field">60</div>
+				<div class="label">Birthday</div>
+				<div class="field">May 26</div>
+				<div class="label">Religion</div>
+				<div class="field"></div>
+			</div>
+			<div class="fieldblock">
+				<div class="label">Height</div>
+				<div class="field">5&#39;4&#34;</div>
+				<div class="label">Weight</div>
+				<div class="field">201 lb</div>
+				<div class="label">Size</div>
+				<div class="field">0</div>
+				<div class="label">TL</div>
+				<div class="field">3</div>
+			</div>
+			<div class="fieldblock">
+				<div class="label">Hair</div>
+				<div class="field">Gray</div>
+				<div class="label">Eyes</div>
+				<div class="field">Gray</div>
+				<div class="label">Skin</div>
+				<div class="field">Greenish</div>
+				<div class="label">Hand</div>
+				<div class="field">Right</div>
+			</div>
+		</div>
+		<div id="points">
+			<div class="header">50 Points</div>
+			<div class="fieldblock">
+				<div class="field noedit">0</div>
+				<div class="label">Unspent</div>
+				<div class="field noedit">0</div>
+				<div class="label">Race</div>
+				<div class="field noedit">10</div>
+				<div class="label">Attributes</div>
+				<div class="field noedit">0</div>
+				<div class="label">Advantages</div>
+				<div class="field noedit">-8</div>
+				<div class="label">Disadvantages</div>
+				<div class="field noedit">0</div>
+				<div class="label">Quirks</div>
+				<div class="field noedit">40</div>
+				<div class="label">Skills</div>
+				<div class="field noedit">8</div>
+				<div class="label">Spells</div>
+			</div>
+		</div>
+	</div>
+	<div id="stats">
+		<div id="attributes">
+			<div id="primary-attributes">
+				<div class="header">Primary Attributes</div>
+				<div class="fieldblock3">
+					
+					<div class="points">[-20]</div>
+					<div class="field">8</div>
+					<div class="label">Strength (ST)</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">10</div>
+					<div class="label">Dexterity (DX)</div>
+					
+					<div class="points">[40]</div>
+					<div class="field">12</div>
+					<div class="label">Intelligence (IQ)</div>
+					
+					<div class="points">[-10]</div>
+					<div class="field">9</div>
+					<div class="label">Health (HT)</div>
+					
+				</div>
+			</div>
+			<div id="basic-damage">
+				<div class="header">Basic Damage</div>
+				<div class="fieldblock3">
+					<div class="points">[20]</div>
+					<div class="field noedit">1d-3</div>
+					<div class="label">Basic Thrust</div>
+					<div class="points">[20]</div>
+					<div class="field noedit">1d-2</div>
+					<div class="label">Basic Swing</div>
+				</div>
+			</div>
+			<div id="secondary-attributes">
+				<div class="header">Secondary Attributes</div>
+				<div class="fieldblock3">
+					
+					<div class="points">[0]</div>
+					<div class="field">4.75</div>
+					<div class="label">Basic Speed</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">4</div>
+					<div class="label">Basic Move</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">12</div>
+					<div class="label">Perception (Per)</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">12</div>
+					<div class="label">Will</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">12</div>
+					<div class="label">Fright Check</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">12</div>
+					<div class="label">Vision</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">12</div>
+					<div class="label">Hearing</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">12</div>
+					<div class="label">Taste &amp; Smell</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">12</div>
+					<div class="label">Touch</div>
+					
+				</div>
+			</div>
+			<div id="pool-attributes">
+				<div class="header">Point Pools</div>
+				<div class="fieldblock5">
+					
+					<div class="points">[0]</div>
+					<div class="field">9</div>
+					<div class="label">of</div>
+					<div class="field">9</div>
+					<div class="label">Fatigue Points (FP)</div>
+					
+					<div class="points">[0]</div>
+					<div class="field">8</div>
+					<div class="label">of</div>
+					<div class="field">8</div>
+					<div class="label">Hit Points (HP)</div>
+					
+				</div>
+			</div>
+		</div>
+		<div id="hit-locations">
+			<div class="header body-plan">Humanoid</div>
+			<div class="header entry-parent" readonly></div>
+			<div class="header roll">Roll</div>
+			<div class="header location">Location</div>
+			<div class="header dr">DR</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">-</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Eyes</div>
+			<div class="penalty">-9</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">3-4</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Skull</div>
+			<div class="penalty">-7</div>
+			<div class="dr">2</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">5</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Face</div>
+			<div class="penalty">-5</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">6-7</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Right Leg</div>
+			<div class="penalty">-2</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">8</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Right Arm</div>
+			<div class="penalty">-2</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">9-10</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Torso</div>
+			<div class="penalty">0</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">11</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Groin</div>
+			<div class="penalty">-3</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">12</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Left Arm</div>
+			<div class="penalty">-2</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">13-14</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Left Leg</div>
+			<div class="penalty">-2</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">15</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Hand</div>
+			<div class="penalty">-4</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">16</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Foot</div>
+			<div class="penalty">-4</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">17-18</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Neck</div>
+			<div class="penalty">-5</div>
+			<div class="dr">0</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="roll" style="padding-left: calc(0 * 10px + 4px)">-</div>
+			<div class="location" style="padding-left: calc(0 * 10px + 4px)">Vitals</div>
+			<div class="penalty">-3</div>
+			<div class="dr">0</div>
+			
+		</div>
+		<div id="encumbrance-lifting">
+			<div id="encumbrance">
+				<div class="header title">Encumbrance, Move &amp; Dodge</div>
+				<div class="header level">Level</div>
+				<div class="header max-load">Max Load</div>
+				<div class="header move">Move</div>
+				<div class="header dodge">Dodge</div>
+				
+				<div class="encumbrance-marker current">
+					
+					<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+						<path class="current"
+							  d="m510.3 445.9-73-292.1c-3.8-15.3-16.5-25.8-30.9-25.8h-60.3c3.625-9.1 5.875-20.75 5.875-32 0-53-42.1-96-96-96S159.1 43 159.1 96c0 11.25 2.25 22 5.875 32H105.6c-14.38 0-27.13 10.5-30.88 25.75L1.71 445.85C-6.641 479.1 16.36 512 47.99 512h416c31.61 0 54.61-32.9 46.31-66.1zM256 128c-17.6 0-32.9-14.4-32.9-32s15.3-32 32.9-32c17.63 0 32 14.38 32 32s-14.4 32-32 32z">
+						</path>
+					</svg>
+					
+				</div>
+				<div class="level-number current">0</div>
+				<div class="level current">None</div>
+				<div class="max-load current">13 lb</div>
+				<div class="move current">4</div>
+				<div class="dodge current">7</div>
+				
+				<div class="encumbrance-marker ">
+					
+				</div>
+				<div class="level-number ">1</div>
+				<div class="level ">Light</div>
+				<div class="max-load ">26 lb</div>
+				<div class="move ">3</div>
+				<div class="dodge ">6</div>
+				
+				<div class="encumbrance-marker ">
+					
+				</div>
+				<div class="level-number ">2</div>
+				<div class="level ">Medium</div>
+				<div class="max-load ">39 lb</div>
+				<div class="move ">2</div>
+				<div class="dodge ">5</div>
+				
+				<div class="encumbrance-marker ">
+					
+				</div>
+				<div class="level-number ">3</div>
+				<div class="level ">Heavy</div>
+				<div class="max-load ">78 lb</div>
+				<div class="move ">1</div>
+				<div class="dodge ">4</div>
+				
+				<div class="encumbrance-marker ">
+					
+				</div>
+				<div class="level-number ">4</div>
+				<div class="level ">X-Heavy</div>
+				<div class="max-load ">130 lb</div>
+				<div class="move ">1</div>
+				<div class="dodge ">3</div>
+				
+			</div>
+			<div id="lifting">
+				<div class="header">Lifting &amp; Moving Things</div>
+				<div class="lift">13 lb</div>
+				<div class="label">Basic Lift</div>
+				<div class="lift">26 lb</div>
+				<div class="label">One-Handed Lift</div>
+				<div class="lift">104 lb</div>
+				<div class="label">Two-Handed Lift</div>
+				<div class="lift">156 lb</div>
+				<div class="label">Shove &amp; Knock Over</div>
+				<div class="lift">312 lb</div>
+				<div class="label">Running Shove &amp; Knock Over</div>
+				<div class="lift">195 lb</div>
+				<div class="label">Carry on Back</div>
+				<div class="lift">650 lb</div>
+				<div class="label">Shift Slightly</div>
+			</div>
+		</div>
+	</div>
+	<div id="embeds">
+		<div id="reactions">
+			<div class="entry-parent header" readonly></div>
+			<div class="modifier header">&#177;</div>
+			<div class="situation header">Reaction</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="modifier">-2</div>
+			<div class="situation">from others</div>
+			
+		</div>
+		<div id="conditional-modifiers">
+			<div class="entry-parent header" readonly></div>
+			<div class="modifier header">&#177;</div>
+			<div class="situation header">Condition</div>
+			
+		</div>
+		<div id="melee">
+			<div class="header entry-parent" readonly></div>
+			<div class="header desc">Melee Weapon</div>
+			<div class="header usage">Usage</div>
+			<div class="header level">SL</div>
+			<div class="header parry">Parry</div>
+			<div class="header block">Block</div>
+			<div class="header damage">Damage</div>
+			<div class="header reach">Reach</div>
+			<div class="header st">ST</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Broom
+				<div class="item-notes">Staff</div>
+			</div>
+			<div class="usage">Swung</div>
+			<div class="level">12</div>
+			<div class="parry">11</div>
+			<div class="block">No</div>
+			<div class="damage">1d cr</div>
+			<div class="reach">1-2</div>
+			<div class="st">7â€ </div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Broom
+				<div class="item-notes">Staff</div>
+			</div>
+			<div class="usage">Thrust</div>
+			<div class="level">12</div>
+			<div class="parry">11</div>
+			<div class="block">No</div>
+			<div class="damage">1d-1 cr</div>
+			<div class="reach">1-2</div>
+			<div class="st">7â€ </div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Large Knife
+				<div class="item-notes"></div>
+			</div>
+			<div class="usage">Swung</div>
+			<div class="level">12</div>
+			<div class="parry">8</div>
+			<div class="block">No</div>
+			<div class="damage">1d-4 cut</div>
+			<div class="reach">C,1</div>
+			<div class="st">6</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Large Knife
+				<div class="item-notes"></div>
+			</div>
+			<div class="usage">Thrust</div>
+			<div class="level">12</div>
+			<div class="parry">8</div>
+			<div class="block">No</div>
+			<div class="damage">1d-3 imp</div>
+			<div class="reach">C</div>
+			<div class="st">6</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Natural Attacks
+				<div class="item-notes"></div>
+			</div>
+			<div class="usage">Bite</div>
+			<div class="level">10</div>
+			<div class="parry">No</div>
+			<div class="block">No</div>
+			<div class="damage">1d-4 cr</div>
+			<div class="reach">C</div>
+			<div class="st"></div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Natural Attacks
+				<div class="item-notes"></div>
+			</div>
+			<div class="usage">Kick</div>
+			<div class="level">8</div>
+			<div class="parry">No</div>
+			<div class="block">No</div>
+			<div class="damage">1d-3 cr</div>
+			<div class="reach">C,1</div>
+			<div class="st"></div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Natural Attacks
+				<div class="item-notes"></div>
+			</div>
+			<div class="usage">Punch</div>
+			<div class="level">10</div>
+			<div class="parry">8</div>
+			<div class="block">No</div>
+			<div class="damage">1d-4 cr</div>
+			<div class="reach">C</div>
+			<div class="st"></div>
+			
+		</div>
+		<div id="ranged">
+			<div class="header entry-parent" readonly></div>
+			<div class="header desc">Ranged Weapon</div>
+			<div class="header usage">Usage</div>
+			<div class="header level">SL</div>
+			<div class="header acc">Acc</div>
+			<div class="header range">Range</div>
+			<div class="header damage">Damage</div>
+			<div class="header rof">RoF</div>
+			<div class="header shots">Shots</div>
+			<div class="header bulk">Bulk</div>
+			<div class="header recoil">Recoil</div>
+			<div class="header st">ST</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Explosive Fireball
+				<div class="item-notes"></div>
+			</div>
+			<div class="usage"></div>
+			<div class="level">13</div>
+			<div class="acc">1</div>
+			<div class="range">25/50</div>
+			<div class="damage">1d burn ex/2 points</div>
+			<div class="rof"></div>
+			<div class="shots"></div>
+			<div class="bulk"></div>
+			<div class="recoil"></div>
+			<div class="st"></div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Fireball
+				<div class="item-notes"></div>
+			</div>
+			<div class="usage"></div>
+			<div class="level">13</div>
+			<div class="acc">1</div>
+			<div class="range">25/50</div>
+			<div class="damage">1d burn/point</div>
+			<div class="rof"></div>
+			<div class="shots"></div>
+			<div class="bulk"></div>
+			<div class="recoil"></div>
+			<div class="st"></div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc">
+				Large Knife
+				<div class="item-notes"></div>
+			</div>
+			<div class="usage">Thrown</div>
+			<div class="level">6</div>
+			<div class="acc">0</div>
+			<div class="range">6/12</div>
+			<div class="damage">1d-3 imp</div>
+			<div class="rof">1</div>
+			<div class="shots">T</div>
+			<div class="bulk">-2</div>
+			<div class="recoil"></div>
+			<div class="st">6</div>
+			
+		</div>
+		
+		<div id="traits">
+			<div class="header entry-parent" readonly></div>
+			<div class="header desc">Trait</div>
+			<div class="header points">Pts</div>
+			<div class="header reference">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path d="M384 48v464L192 400 0 512V48C0 21.5 21.5 0 48 0h288c26.5 0 48 21.5 48 48z"></path>
+				</svg>
+			</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Appearance
+				<div class="item-notes">Ugly</div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="points">-8</div>
+			<div class="reference">B21</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Natural Attacks
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="points">0</div>
+			<div class="reference">B271</div>
+			
+		</div>
+		
+		
+		<div id="skills">
+			<div class="header entry-parent" readonly></div>
+			<div class="header desc">Skill / Technique</div>
+			<div class="header level">SL</div>
+			<div class="header rsl">RSL</div>
+			<div class="header points">Pts</div>
+			<div class="header reference">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path d="M384 48v464L192 400 0 512V48C0 21.5 21.5 0 48 0h288c26.5 0 48 21.5 48 48z"></path>
+				</svg>
+			</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Staff
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="level">12</div>
+			<div class="rsl">DX&#43;2</div>
+			<div class="points">8</div>
+			<div class="reference">DFA81</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Knife
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="level">12</div>
+			<div class="rsl">DX&#43;2</div>
+			<div class="points">4</div>
+			<div class="reference">B208</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Ritual Magic (Witchcraft)
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="level">12</div>
+			<div class="rsl">IQ&#43;0</div>
+			<div class="points">8</div>
+			<div class="reference">B218</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Magic College (Fire)
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="level">12</div>
+			<div class="rsl">IQ&#43;0</div>
+			<div class="points">8</div>
+			<div class="reference">B242</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Innate Attack (Projectile)
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="level">13</div>
+			<div class="rsl">DX&#43;3</div>
+			<div class="points">8</div>
+			<div class="reference">B201</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Cooking (Hasenpfeffer)
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="level">14</div>
+			<div class="rsl">IQ&#43;2</div>
+			<div class="points">4</div>
+			<div class="reference">B185</div>
+			
+		</div>
+		
+		
+		<div id="spells">
+			<div class="header entry-parent" readonly></div>
+			<div class="header desc">Spell</div>
+			<div class="header college">College</div>
+			<div class="header level">SL</div>
+			<div class="header rsl">RSL</div>
+			<div class="header points">Pts</div>
+			<div class="header reference">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path d="M384 48v464L192 400 0 512V48C0 21.5 21.5 0 48 0h288c26.5 0 48 21.5 48 48z"></path>
+				</svg>
+			</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Fireball
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+				<div class="item-notes">Class: Missile; Cast: 1-Magery; Time: 1-3 sec; Duration: Instant</div>
+			</div>
+			<div class="college">Fire</div>
+			<div class="level">12</div>
+			<div class="rsl">IQ&#43;0</div>
+			<div class="points">4</div>
+			<div class="reference">M74</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Explosive Fireball
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+				<div class="item-notes">Class: Missile; Cast: 2-2xMagery#; Time: 1-3 sec; Duration: Instant</div>
+			</div>
+			<div class="college">Fire</div>
+			<div class="level">12</div>
+			<div class="rsl">IQ&#43;0</div>
+			<div class="points">4</div>
+			<div class="reference">M75</div>
+			
+		</div>
+		
+		
+		<div id="equipment">
+			<div class="header entry-parent" readonly></div>
+			<div class="header equipped">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="M 492.1883,51.561176 447.69973,21.315702 C 435.38472,12.98066 418.51958,16.176634 410.28207,28.39411 L 192.1793,350.02095 91.94873,249.79038 c -10.469445,-10.46569 -27.533399,-10.46569 -37.999091,0 L 15.849269,287.887 c -10.4656924,10.46569 -10.4656924,27.52965 0,38.09662 L 169.97628,480.10687 c 8.62763,8.62763 22.19551,15.22215 34.40924,15.22215 12.21748,0 24.52498,-7.65984 32.47365,-19.19461 L 499.36048,88.881308 c 8.33505,-12.213725 5.13907,-28.98509 -7.17594,-37.323883 z">
+					</path>
+				</svg>
+			</div>
+			<div class="header quantity">#</div>
+			<div class="header desc">Carried Equipment (5 lb; $50)</div>
+			<div class="header uses">Uses</div>
+			<div class="header tech-level">TL</div>
+			<div class="header legality-class">LC</div>
+			<div class="header value">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="M512 80c0 18.01-14.3 34.6-38.4 48-29.1 16.1-72.4 27.5-122.3 30.9-3.6-1.7-7.4-3.4-11.2-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4.2-24.5.6l-1.1-.6C142.3 114.6 128 98.01 128 80c0-44.18 85.1-80 192-80 106 0 192 35.82 192 80zm-351.3 81.1c10.2-.7 20.6-1.1 31.3-1.1 62.2 0 117.4 12.3 152.5 31.4 24.8 13.5 39.5 30.3 39.5 48.6 0 3.1-.7 7.9-2.1 11.7-4.6 13.2-17.8 25.3-35 35.6-.1 0-.3.1-.4.2-.3.2-.6.3-.9.5-35 19.4-90.8 32-153.6 32-59.6 0-112.94-11.3-148.16-29.1-1.87-1-3.69-2.8-5.45-2.9C14.28 274.6 0 258 0 240c0-34.8 53.43-64.5 128-75.4 10.5-1.6 21.4-2.8 32.7-3.5zm231.2 25.5c28.3-4.4 54.2-11.4 76.2-20.5 16.3-6.8 31.4-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9-14.7 7.4-32.4 13.6-52.4 18.4.1-1.7.2-3.5.2-5.3 0-21.9-10.6-39.9-24.1-53.4zM384 336c0 18-14.3 34.6-38.4 48-1.8.1-3.6 1.9-5.4 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.58-12.6-153.61-32C14.28 370.6 0 354 0 336v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 342.6 135.8 352 192 352c56.2 0 108.6-9.4 148.1-25.9 7.8-3.2 15.3-6.9 22.4-10.9 6.1-3.4 11.8-7.2 17.2-11.2 1.5-1.1 2.9-2.3 4.3-3.4V336zm32-57.9c18.1-5 36.5-9.5 52.1-16 16.3-6.8 31.4-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9-16.3 16.3-45 29.7-81.3 38.4.1-1.7.2-3.5.2-5.3v-57.9zM192 448c56.2 0 108.6-9.4 148.1-25.9 16.3-6.8 31.4-15.2 43.9-25.5V432c0 44.2-86 80-192 80C85.96 512 0 476.2 0 432v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 438.6 135.8 448 192 448z">
+					</path>
+				</svg>
+			</div>
+			<div class="header weight">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="m510.3 445.9-73-292.1c-3.8-15.3-16.5-25.8-30.9-25.8h-60.3c3.625-9.1 5.875-20.75 5.875-32 0-53-42.1-96-96-96S159.1 43 159.1 96c0 11.25 2.25 22 5.875 32H105.6c-14.38 0-27.13 10.5-30.88 25.75L1.71 445.85C-6.641 479.1 16.36 512 47.99 512h416c31.61 0 54.61-32.9 46.31-66.1zM256 128c-17.6 0-32.9-14.4-32.9-32s15.3-32 32.9-32c17.63 0 32 14.38 32 32s-14.4 32-32 32z">
+					</path>
+				</svg>
+			</div>
+			<div class="header extended-value">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="M232.5 5.171a56.026 56.026 0 0 1 47 0L498.1 106.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 145.8 0 137.3 0 127.1c0-8.5 5.437-17 13.93-20.9L232.5 5.171zM498.1 234.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 273.8 0 265.3 0 255.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0l152-70.2 53.2 24.6zM292.9 407.8l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 401.8 0 393.3 0 383.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0z">
+					</path>
+				</svg>
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="M512 80c0 18.01-14.3 34.6-38.4 48-29.1 16.1-72.4 27.5-122.3 30.9-3.6-1.7-7.4-3.4-11.2-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4.2-24.5.6l-1.1-.6C142.3 114.6 128 98.01 128 80c0-44.18 85.1-80 192-80 106 0 192 35.82 192 80zm-351.3 81.1c10.2-.7 20.6-1.1 31.3-1.1 62.2 0 117.4 12.3 152.5 31.4 24.8 13.5 39.5 30.3 39.5 48.6 0 3.1-.7 7.9-2.1 11.7-4.6 13.2-17.8 25.3-35 35.6-.1 0-.3.1-.4.2-.3.2-.6.3-.9.5-35 19.4-90.8 32-153.6 32-59.6 0-112.94-11.3-148.16-29.1-1.87-1-3.69-2.8-5.45-2.9C14.28 274.6 0 258 0 240c0-34.8 53.43-64.5 128-75.4 10.5-1.6 21.4-2.8 32.7-3.5zm231.2 25.5c28.3-4.4 54.2-11.4 76.2-20.5 16.3-6.8 31.4-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9-14.7 7.4-32.4 13.6-52.4 18.4.1-1.7.2-3.5.2-5.3 0-21.9-10.6-39.9-24.1-53.4zM384 336c0 18-14.3 34.6-38.4 48-1.8.1-3.6 1.9-5.4 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.58-12.6-153.61-32C14.28 370.6 0 354 0 336v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 342.6 135.8 352 192 352c56.2 0 108.6-9.4 148.1-25.9 7.8-3.2 15.3-6.9 22.4-10.9 6.1-3.4 11.8-7.2 17.2-11.2 1.5-1.1 2.9-2.3 4.3-3.4V336zm32-57.9c18.1-5 36.5-9.5 52.1-16 16.3-6.8 31.4-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9-16.3 16.3-45 29.7-81.3 38.4.1-1.7.2-3.5.2-5.3v-57.9zM192 448c56.2 0 108.6-9.4 148.1-25.9 16.3-6.8 31.4-15.2 43.9-25.5V432c0 44.2-86 80-192 80C85.96 512 0 476.2 0 432v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 438.6 135.8 448 192 448z">
+					</path>
+				</svg>
+			</div>
+			<div class="header extended-weight">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="M232.5 5.171a56.026 56.026 0 0 1 47 0L498.1 106.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 145.8 0 137.3 0 127.1c0-8.5 5.437-17 13.93-20.9L232.5 5.171zM498.1 234.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 273.8 0 265.3 0 255.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0l152-70.2 53.2 24.6zM292.9 407.8l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 401.8 0 393.3 0 383.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0z">
+					</path>
+				</svg>
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="m510.3 445.9-73-292.1c-3.8-15.3-16.5-25.8-30.9-25.8h-60.3c3.625-9.1 5.875-20.75 5.875-32 0-53-42.1-96-96-96S159.1 43 159.1 96c0 11.25 2.25 22 5.875 32H105.6c-14.38 0-27.13 10.5-30.88 25.75L1.71 445.85C-6.641 479.1 16.36 512 47.99 512h416c31.61 0 54.61-32.9 46.31-66.1zM256 128c-17.6 0-32.9-14.4-32.9-32s15.3-32 32.9-32c17.63 0 32 14.38 32 32s-14.4 32-32 32z">
+					</path>
+				</svg>
+			</div>
+			<div class="header reference">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path d="M384 48v464L192 400 0 512V48C0 21.5 21.5 0 48 0h288c26.5 0 48 21.5 48 48z"></path>
+				</svg>
+			</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="equipped">
+				
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path d="M 492.1883,51.561176 447.69973,21.315702 C 435.38472,12.98066 418.51958,16.176634 410.28207,28.39411 L 192.1793,350.02095 91.94873,249.79038 c -10.469445,-10.46569 -27.533399,-10.46569 -37.999091,0 L 15.849269,287.887 c -10.4656924,10.46569 -10.4656924,27.52965 0,38.09662 L 169.97628,480.10687 c 8.62763,8.62763 22.19551,15.22215 34.40924,15.22215 12.21748,0 24.52498,-7.65984 32.47365,-19.19461 L 499.36048,88.881308 c 8.33505,-12.213725 5.13907,-28.98509 -7.17594,-37.323883 z">
+					</path>
+				</svg>
+				
+			</div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Broom
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">10</div>
+			<div class="weight">4 lb</div>
+			<div class="extended-value">10</div>
+			<div class="extended-weight">4 lb</div>
+			<div class="reference">B273</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="equipped">
+				
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path d="M 492.1883,51.561176 447.69973,21.315702 C 435.38472,12.98066 418.51958,16.176634 410.28207,28.39411 L 192.1793,350.02095 91.94873,249.79038 c -10.469445,-10.46569 -27.533399,-10.46569 -37.999091,0 L 15.849269,287.887 c -10.4656924,10.46569 -10.4656924,27.52965 0,38.09662 L 169.97628,480.10687 c 8.62763,8.62763 22.19551,15.22215 34.40924,15.22215 12.21748,0 24.52498,-7.65984 32.47365,-19.19461 L 499.36048,88.881308 c 8.33505,-12.213725 5.13907,-28.98509 -7.17594,-37.323883 z">
+					</path>
+				</svg>
+				
+			</div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Large Knife
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level">0</div>
+			<div class="legality-class "></div>
+			<div class="value">40</div>
+			<div class="weight">1 lb</div>
+			<div class="extended-value">40</div>
+			<div class="extended-weight">1 lb</div>
+			<div class="reference">B272</div>
+			
+		</div>
+		
+		
+		<div id="other-equipment">
+			<div class="header entry-parent" readonly></div>
+			<div class="header quantity">#</div>
+			<div class="header desc">Other Equipment ($0)</div>
+			<div class="header uses">Uses</div>
+			<div class="header tech-level">TL</div>
+			<div class="header legality-class">LC</div>
+			<div class="header value">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="M512 80c0 18.01-14.3 34.6-38.4 48-29.1 16.1-72.4 27.5-122.3 30.9-3.6-1.7-7.4-3.4-11.2-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4.2-24.5.6l-1.1-.6C142.3 114.6 128 98.01 128 80c0-44.18 85.1-80 192-80 106 0 192 35.82 192 80zm-351.3 81.1c10.2-.7 20.6-1.1 31.3-1.1 62.2 0 117.4 12.3 152.5 31.4 24.8 13.5 39.5 30.3 39.5 48.6 0 3.1-.7 7.9-2.1 11.7-4.6 13.2-17.8 25.3-35 35.6-.1 0-.3.1-.4.2-.3.2-.6.3-.9.5-35 19.4-90.8 32-153.6 32-59.6 0-112.94-11.3-148.16-29.1-1.87-1-3.69-2.8-5.45-2.9C14.28 274.6 0 258 0 240c0-34.8 53.43-64.5 128-75.4 10.5-1.6 21.4-2.8 32.7-3.5zm231.2 25.5c28.3-4.4 54.2-11.4 76.2-20.5 16.3-6.8 31.4-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9-14.7 7.4-32.4 13.6-52.4 18.4.1-1.7.2-3.5.2-5.3 0-21.9-10.6-39.9-24.1-53.4zM384 336c0 18-14.3 34.6-38.4 48-1.8.1-3.6 1.9-5.4 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.58-12.6-153.61-32C14.28 370.6 0 354 0 336v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 342.6 135.8 352 192 352c56.2 0 108.6-9.4 148.1-25.9 7.8-3.2 15.3-6.9 22.4-10.9 6.1-3.4 11.8-7.2 17.2-11.2 1.5-1.1 2.9-2.3 4.3-3.4V336zm32-57.9c18.1-5 36.5-9.5 52.1-16 16.3-6.8 31.4-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9-16.3 16.3-45 29.7-81.3 38.4.1-1.7.2-3.5.2-5.3v-57.9zM192 448c56.2 0 108.6-9.4 148.1-25.9 16.3-6.8 31.4-15.2 43.9-25.5V432c0 44.2-86 80-192 80C85.96 512 0 476.2 0 432v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 438.6 135.8 448 192 448z">
+					</path>
+				</svg>
+			</div>
+			<div class="header weight">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="m510.3 445.9-73-292.1c-3.8-15.3-16.5-25.8-30.9-25.8h-60.3c3.625-9.1 5.875-20.75 5.875-32 0-53-42.1-96-96-96S159.1 43 159.1 96c0 11.25 2.25 22 5.875 32H105.6c-14.38 0-27.13 10.5-30.88 25.75L1.71 445.85C-6.641 479.1 16.36 512 47.99 512h416c31.61 0 54.61-32.9 46.31-66.1zM256 128c-17.6 0-32.9-14.4-32.9-32s15.3-32 32.9-32c17.63 0 32 14.38 32 32s-14.4 32-32 32z">
+					</path>
+				</svg>
+			</div>
+			<div class="header extended-value">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="M232.5 5.171a56.026 56.026 0 0 1 47 0L498.1 106.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 145.8 0 137.3 0 127.1c0-8.5 5.437-17 13.93-20.9L232.5 5.171zM498.1 234.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 273.8 0 265.3 0 255.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0l152-70.2 53.2 24.6zM292.9 407.8l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 401.8 0 393.3 0 383.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0z">
+					</path>
+				</svg>
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="M512 80c0 18.01-14.3 34.6-38.4 48-29.1 16.1-72.4 27.5-122.3 30.9-3.6-1.7-7.4-3.4-11.2-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4.2-24.5.6l-1.1-.6C142.3 114.6 128 98.01 128 80c0-44.18 85.1-80 192-80 106 0 192 35.82 192 80zm-351.3 81.1c10.2-.7 20.6-1.1 31.3-1.1 62.2 0 117.4 12.3 152.5 31.4 24.8 13.5 39.5 30.3 39.5 48.6 0 3.1-.7 7.9-2.1 11.7-4.6 13.2-17.8 25.3-35 35.6-.1 0-.3.1-.4.2-.3.2-.6.3-.9.5-35 19.4-90.8 32-153.6 32-59.6 0-112.94-11.3-148.16-29.1-1.87-1-3.69-2.8-5.45-2.9C14.28 274.6 0 258 0 240c0-34.8 53.43-64.5 128-75.4 10.5-1.6 21.4-2.8 32.7-3.5zm231.2 25.5c28.3-4.4 54.2-11.4 76.2-20.5 16.3-6.8 31.4-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9-14.7 7.4-32.4 13.6-52.4 18.4.1-1.7.2-3.5.2-5.3 0-21.9-10.6-39.9-24.1-53.4zM384 336c0 18-14.3 34.6-38.4 48-1.8.1-3.6 1.9-5.4 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.58-12.6-153.61-32C14.28 370.6 0 354 0 336v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 342.6 135.8 352 192 352c56.2 0 108.6-9.4 148.1-25.9 7.8-3.2 15.3-6.9 22.4-10.9 6.1-3.4 11.8-7.2 17.2-11.2 1.5-1.1 2.9-2.3 4.3-3.4V336zm32-57.9c18.1-5 36.5-9.5 52.1-16 16.3-6.8 31.4-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9-16.3 16.3-45 29.7-81.3 38.4.1-1.7.2-3.5.2-5.3v-57.9zM192 448c56.2 0 108.6-9.4 148.1-25.9 16.3-6.8 31.4-15.2 43.9-25.5V432c0 44.2-86 80-192 80C85.96 512 0 476.2 0 432v-35.4c12.45 10.3 27.62 18.7 43.93 25.5C83.44 438.6 135.8 448 192 448z">
+					</path>
+				</svg>
+			</div>
+			<div class="header extended-weight">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="M232.5 5.171a56.026 56.026 0 0 1 47 0L498.1 106.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 145.8 0 137.3 0 127.1c0-8.5 5.437-17 13.93-20.9L232.5 5.171zM498.1 234.2c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 273.8 0 265.3 0 255.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0l152-70.2 53.2 24.6zM292.9 407.8l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 20.9 0 10.2-5.4 18.7-13.9 22.7l-218.6 101c-14.9 6.9-32.1 6.9-47 0l-218.57-101C5.438 401.8 0 393.3 0 383.1c0-8.5 5.437-17 13.93-20.9l53.2-24.6 151.97 70.2c23.4 10.9 50.4 10.9 73.8 0z">
+					</path>
+				</svg>
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path
+							d="m510.3 445.9-73-292.1c-3.8-15.3-16.5-25.8-30.9-25.8h-60.3c3.625-9.1 5.875-20.75 5.875-32 0-53-42.1-96-96-96S159.1 43 159.1 96c0 11.25 2.25 22 5.875 32H105.6c-14.38 0-27.13 10.5-30.88 25.75L1.71 445.85C-6.641 479.1 16.36 512 47.99 512h416c31.61 0 54.61-32.9 46.31-66.1zM256 128c-17.6 0-32.9-14.4-32.9-32s15.3-32 32.9-32c17.63 0 32 14.38 32 32s-14.4 32-32 32z">
+					</path>
+				</svg>
+			</div>
+			<div class="header reference">
+				<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+					<path d="M384 48v464L192 400 0 512V48C0 21.5 21.5 0 48 0h288c26.5 0 48 21.5 48 48z"></path>
+				</svg>
+			</div>
+			
+			<div class="entry-parent" readonly></div>
+			<div class="quantity">1</div>
+			<div class="desc" style="padding-left: calc(0 * 20px + 4px)">
+				Pointy Hat
+				<div class="item-notes"></div>
+				<div class="item-notes"></div>
+			</div>
+			<div class="uses"></div>
+			<div class="tech-level"></div>
+			<div class="legality-class "></div>
+			<div class="value">0</div>
+			<div class="weight">0 lb</div>
+			<div class="extended-value">0</div>
+			<div class="extended-weight">0 lb</div>
+			<div class="reference"></div>
+			
+		</div>
+		
+		
+	</div>
+	<div id="footer">
+		<div class="left">GCS is copyrighted &copy;1998-2023 by Richard A. Wilkes</div>
+		<div class="center primary">Witch Hazel</div>
+		<div class="right">Modified Nov  4, 2024, 7:56 PM</div>
+		<div class="left">All rights reserved</div>
+		<div class="center"><a href="https://gurpscharactersheet.com/">gurpscharactersheet.com</a></div>
+		<div class="right">Created Nov  4, 2024, 5:35 PM</div>
+	</div>
+</div>
+</body>
+
+</html>
