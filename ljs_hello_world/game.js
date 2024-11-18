@@ -33,7 +33,7 @@ function gameRenderPost()
 {
     // called after objects are rendered
     // draw effects or hud that appear above all objects
-    drawTextScreen('Hello jimu.net!', mainCanvasSize.scale(.6), 80);
+    drawTextScreen('Hello jimu.net!', mainCanvasSize.scale(.5), 100);
 }
 
 ///////////////////////////////////////////////////////////////////////////////
