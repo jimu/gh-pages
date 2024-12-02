@@ -40,7 +40,7 @@ class Game {
   }
 
   isGameOver() {
-    this.state == Rules.WIN || this.state == Rules.DRAW
+    return this.state == Rules.WIN || this.state == Rules.DRAW
   }
 
   cellClicked(i) {
