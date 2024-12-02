@@ -11,8 +11,8 @@ Team submission for the Create with Code Game Jam
 ### [Unit 3](CwCCowshed/index.html)
 [![Unit 3](/images/af2_splash_572x256.jpg)](CwCCowshed/index.html)
 
-### [Personal Project](https://connect.unity.com/p/tic-tac-toe-7)
-[![TicTacToe](/images/tictactoe_splash_572x256.png)](https://connect.unity.com/p/tic-tac-toe-7)
+### [Personal Project](CwCTicTacToe/index.html)
+[![TicTacToe](/images/tictactoe_splash_572x256.png)](CwCTicTacToe/index.html)
 
 ### [Cellwar](Cellwar/index.html)
 [![Cellwar](/images/cellwar_splash_572x256.png)](Cellwar/index.html)<br>
