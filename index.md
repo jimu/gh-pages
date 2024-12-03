@@ -28,4 +28,3 @@ Real-time Strategy Prototype for Create with Code
 ### [Pumpkin Spider Crosses the Road](https://pumpkinspider.tripleplusungood.com/)
 [![Pumpkin Spider](/images/pumpkinspider_splash_572x256.png)](https://pumpkinspider.tripleplusungood.com/)<br>
 Simple [Google Play Store App](https://play.google.com/store/apps/details?id=com.TriplePlusUngood.com.PumpkinSpiderCrossesTheRoad) with [product website](https://pumpkinspider.tripleplusungood.com/)
-
