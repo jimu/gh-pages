@@ -1,0 +1,3 @@
+[submodule "littlejs_gamejam"]
+	path = littlejs_gamejam
+	url = https://github.com/jimu/littlejs_gamejam.git
