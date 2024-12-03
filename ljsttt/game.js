@@ -92,7 +92,11 @@ function gameUpdatePost() {
 ///////////////////////////////////////////////////////////////////////////////
 function gameUpdate() {
 
-  if (game.isGameOver()) return;
+  if (game.state == Rules.WIN)
+    game.drawWinLine();
+
+  if (game.isGameOver())
+    return;
 
   if (LittleJS.mouseWasPressed(0)) {
     for (let i = 0; i < Rules.NUM_CELLS; ++i)
@@ -115,9 +119,6 @@ function gameRender() {
 
 ///////////////////////////////////////////////////////////////////////////////
 function gameRenderPost() {
-  if (game.state == Rules.WIN)
-    game.drawWinLine();
-  
 }
 
 ///////////////////////////////////////////////////////////////////////////////
