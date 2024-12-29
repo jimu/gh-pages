@@ -21,7 +21,8 @@ Real-time Strategy Prototype for Create with Code
 # Javascript
 
 ### [LittleJS Game Jam 2024](littlejs_jam/index.html)
-[![On a Snowy Evening](/images/littlejs_jam_572x256.png)](littlejs_jam)
+[![On a Snowy Evening](/images/littlejs_jam_572x256.png)](littlejs_jam)<br>
+[Jam submission](https://itch.io/jam/littlejs-game-jam/rate/3191337)
 
 # Other Unity Projects
 
