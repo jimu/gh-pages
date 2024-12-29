@@ -18,6 +18,10 @@ Team submission for the Create with Code Game Jam
 [![Cellwar](/images/cellwar_splash_572x256.png)](Cellwar/index.html)<br>
 Real-time Strategy Prototype for Create with Code
 
+# LittleJS Game Jam
+[![On a Snowy Evening](/images/littlejs_jam_572x256.png)](littlejs_jam)<br>
+LittleJS Game Jam 2024
+
 # Other Unity Projects
 
 ### [ScreamJam 2020 - Drop Bear Panic](https://itch.io/jam/scream-jam-2020/rate/797335)<br>
